@@ -13,6 +13,7 @@ export interface Imovel {
   banheiros: number;
   vagas: number;
   areaPrivativa: number;
+  endereco: string;
   descricao: string;
   comodidades?: string[];
   latitude?: number;

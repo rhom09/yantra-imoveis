@@ -22,7 +22,10 @@ export default function PropertyDetailPage({ params }: { params: { slug: string 
 
           <div className="lg:col-span-5 space-y-6">
             <h1 className="text-3xl font-serif text-verde-escuro">{imovel.titulo}</h1>
-            <p className="text-verde-salvia">{imovel.cidade} - {imovel.bairro}</p>
+            <p className="text-verde-salvia">
+              {imovel.cidade} - {imovel.bairro}
+              {imovel.endereco && <span className="block text-sm mt-1">{imovel.endereco}</span>}
+            </p>
             <p className="text-3xl font-serif text-verde-escuro font-semibold">{formatarMoeda(imovel.valor)}</p>
 
             <button className="w-full py-4 bg-verde-escuro text-white rounded-lg font-semibold hover:bg-verde-profundo transition duration-200">
