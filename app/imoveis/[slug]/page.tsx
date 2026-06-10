@@ -1,20 +1,14 @@
 import PropertyGallery from '@/components/imoveis/PropertyGallery';
 import PropertySpecs from '@/components/imoveis/PropertySpecs';
+import PropertyDescription from '@/components/imoveis/PropertyDescription';
+import PropertyMap from '@/components/imoveis/PropertyMap';
+import CondominiumAmenities from '@/components/imoveis/CondominiumAmenities';
 import { formatarMoeda } from '@/lib/formatters';
 import { notFound } from 'next/navigation';
-
-// Mock data para a visualização
-const mockImovel = {
-  _id: "1", codigo: "YAN-0458", titulo: "Apartamento no Jardim América", slug: { current: "apartamento-jardim-america" },
-  tipoNegocio: "venda", tipoImovel: "apartamento", valor: 850000, cidade: "São Paulo", bairro: "Jardim América",
-  quartos: 3, banheiros: 2, vagas: 2, areaPrivativa: 120, destaque: true, status: "ativo",
-  descricao: "Apartamento moderno e sofisticado no coração do Jardim América, ideal para quem busca conforto e elegância.",
-  fotos: [{ asset: { url: "https://images.unsplash.com/photo-1560448204-603b3fc33ddc?w=800" }}, { asset: { url: "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=800" }}]
-};
+import { MOCK_IMOVEIS } from '@/lib/mockData';
 
 export default function PropertyDetailPage({ params }: { params: { slug: string } }) {
-  // Simulação de busca pelo slug
-  const imovel = mockImovel;
+  const imovel = MOCK_IMOVEIS.find(i => i.slug.current === params.slug);
 
   if (!imovel) notFound();
 
@@ -31,17 +25,24 @@ export default function PropertyDetailPage({ params }: { params: { slug: string 
             <p className="text-verde-salvia">{imovel.cidade} - {imovel.bairro}</p>
             <p className="text-3xl font-serif text-verde-escuro font-semibold">{formatarMoeda(imovel.valor)}</p>
 
-            <button className="w-full py-4 bg-verde-escuro text-white rounded-lg font-semibold hover:bg-verde-profundo transition">
+            <button className="w-full py-4 bg-verde-escuro text-white rounded-lg font-semibold hover:bg-verde-profundo transition duration-200">
               FALAR NO WHATSAPP
             </button>
 
-            <PropertySpecs imovel={imovel as any} />
-
-            <div className="prose max-w-none text-verde-salvia">
-              <h3 className="text-verde-escuro font-serif text-xl mb-2">Sobre o imóvel</h3>
-              <p>{imovel.descricao}</p>
-            </div>
+            <PropertySpecs imovel={imovel} />
           </div>
+        </div>
+
+        <div className="max-w-7xl mx-auto mt-12">
+          <PropertyDescription descricao={imovel.descricao} />
+
+          {imovel.comodidades && imovel.comodidades.length > 0 && (
+            <CondominiumAmenities comodidades={imovel.comodidades} />
+          )}
+
+          {imovel.latitude && imovel.longitude && (
+            <PropertyMap latitude={imovel.latitude} longitude={imovel.longitude} />
+          )}
         </div>
       </div>
     </main>

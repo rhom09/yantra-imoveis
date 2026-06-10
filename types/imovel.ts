@@ -13,6 +13,10 @@ export interface Imovel {
   banheiros: number;
   vagas: number;
   areaPrivativa: number;
+  descricao: string;
+  comodidades?: string[];
+  latitude?: number;
+  longitude?: number;
   fotos: { asset: { url: string } }[];
   destaque: boolean;
   status: "ativo" | "inativo";

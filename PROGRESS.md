@@ -94,14 +94,4 @@
 - Implementada home completa e listagens de comprar/alugar.
 - Resolvido erro de resolução de imagem (next/image + remotePatterns).
 - Criada página inicial de detalhe do imóvel com galeria e especificações.
-
----
-
-## 🔄 Como Retomar o Trabalho
-
-Ao iniciar uma nova sessão no Claude Code, use este prompt:
-
-```
-Leia o CLAUDE.md e o PROGRESS.md para entender o estado atual do projeto.
-Em seguida, continue de onde paramos: [DESCREVER PRÓXIMA AÇÃO].
-```
+- Preparada estrutura para conclusão da fase de detalhes.
