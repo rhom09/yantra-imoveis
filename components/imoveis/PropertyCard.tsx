@@ -1,4 +1,5 @@
 import { Bed, Bath, Car, Maximize2, MapPin } from 'lucide-react';
+import Link from 'next/link';
 import { Imovel } from '@/types/imovel';
 import { formatarMoeda } from '@/lib/formatters';
 
@@ -36,9 +37,12 @@ export default function PropertyCard({ imovel }: { imovel: Imovel }) {
           {formatarMoeda(imovel.valor)}
         </p>
 
-        <button className="w-full py-2 bg-verde-escuro text-white rounded-md text-sm font-semibold hover:bg-verde-profundo transition-colors">
+        <Link
+          href={`/imoveis/${imovel.slug.current}`}
+          className="block text-center w-full py-2 bg-verde-escuro text-white rounded-md text-sm font-semibold hover:bg-verde-profundo transition-colors"
+        >
           VER DETALHES
-        </button>
+        </Link>
       </div>
     </div>
   );
