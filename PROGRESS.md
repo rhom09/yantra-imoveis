@@ -7,9 +7,9 @@
 
 ## 🟢 Status Atual
 
-**Fase em andamento:** Fase 4 — Detalhe do Imóvel
+**Fase em andamento:** Fase 6 — Sanity CMS
 **Última atualização:** 2026-06-10
-**Próxima ação:** Implementar o restante dos detalhes da página, como a descrição com collapse, Google Maps e comodidades do condomínio.
+**Próxima ação:** Configurar Sanity v3 e definir schemas para imovel e configuracoes.
 
 ---
 
@@ -42,15 +42,20 @@
 ### Fase 4 — Detalhe do Imóvel
 - [x] PropertyGallery.tsx — thumbnails + galeria
 - [x] PropertySpecs.tsx
-- [x] app/imoveis/[slug]/page.tsx (integração inicial)
+- [x] app/imoveis/[slug]/page.tsx
+- [x] PropertyDescription.tsx (com collapse)
+- [x] PropertyMap.tsx (iframe Maps)
+- [x] CondominiumAmenities.tsx (grid com ícones)
 
 ### Fase 5 — Institucional
-- [ ] PillarCard.tsx
-- [ ] StatsBar.tsx
-- [ ] TeamCard.tsx
-- [ ] app/sobre-nos/page.tsx
-- [ ] app/contato/page.tsx
-- [ ] app/api/contato/route.ts
+- [x] PillarCard.tsx
+- [x] StatsBar.tsx
+- [x] TeamCard.tsx
+- [x] app/sobre-nos/page.tsx
+- [x] app/contato/page.tsx
+- [x] app/api/contato/route.ts
+- [x] CTABanner.tsx
+- [x] YantraPattern.tsx
 
 ### Fase 6 — Sanity CMS
 - [ ] Setup Sanity v3
@@ -75,23 +80,19 @@
 |---------|--------|------|
 | Dados mock em lib/mockData.ts antes do Sanity | Desenvolver UI independente do CMS | 2026-06-10 |
 | Número WhatsApp via .env — nunca hardcodado | Facilitar troca sem mexer no código | 2026-06-10 |
-| Alias @/ no tsconfig para importações | Organização e limpeza do código | 2026-06-10 |
-| Uso de next/image com remotePatterns para Unsplash | Resolver erro de host não configurado | 2026-06-10 |
+| Uso de next/image com remotePatterns | Resolver erro de host não configurado | 2026-06-10 |
+| Centralização de mocks em lib/mockData.ts | Fonte única de verdade para testes | 2026-06-10 |
 
 ---
 
 ## 🐛 Problemas Conhecidos
 
-- A descrição do imóvel na página de detalhe ainda não possui a funcionalidade de "ver mais/ver menos" (collapse).
-- Integração com Google Maps (iframe) ainda pendente na página de detalhe.
-- Comodidades do condomínio ainda não implementadas na página de detalhe.
+- Nenhum.
 
 ---
 
 ## 📝 Notas da Sessão Atual
 
-- Configurado ambiente completo (Next.js + Tailwind).
-- Implementada home completa e listagens de comprar/alugar.
-- Resolvido erro de resolução de imagem (next/image + remotePatterns).
-- Criada página inicial de detalhe do imóvel com galeria e especificações.
-- Preparada estrutura para conclusão da fase de detalhes.
+- Concluída a Fase 4 (Detalhe) com integração completa dos novos componentes e correções nos dados mock.
+- Concluída a Fase 5 (Institucional) com a criação das páginas Sobre Nós e Contato, e integração da API de e-mail (Resend).
+- Componentes de UI padronizados criados e utilizados com sucesso.
