@@ -1,4 +1,5 @@
 import CTABanner from '@/components/ui/CTABanner';
+import ContactForm from '@/components/contato/ContactForm';
 
 export default function ContatoPage() {
   return (
@@ -16,28 +17,7 @@ export default function ContatoPage() {
           {/* Formulário */}
           <div>
             <h2 className="text-3xl font-serif text-verde-escuro mb-8">Envie uma mensagem</h2>
-            <form className="space-y-6" onSubmit={(e) => e.preventDefault()}>
-              <input
-                type="text"
-                placeholder="Nome completo"
-                className="w-full p-4 border border-border-yantra rounded-md focus:outline-dourado"
-              />
-              <input
-                type="email"
-                placeholder="Seu melhor e-mail"
-                className="w-full p-4 border border-border-yantra rounded-md focus:outline-dourado"
-              />
-              <textarea
-                placeholder="Como podemos ajudar?"
-                className="w-full p-4 border border-border-yantra rounded-md h-32 focus:outline-dourado"
-              />
-              <button
-                type="submit"
-                className="px-8 py-4 bg-dourado text-white rounded-md font-sans hover:bg-dourado-light transition duration-200"
-              >
-                ENVIAR MENSAGEM
-              </button>
-            </form>
+            <ContactForm />
           </div>
 
           {/* Sede e Mapa */}
