@@ -1,0 +1,272 @@
+{
+  ".claude/settings.local.json": {
+    "mtime": 1792802763.2200077,
+    "seen": 1792807287.0574756,
+    "ast_hash": "9f0f2182ba522f2de858a890441b701e",
+    "semantic_hash": "9f0f2182ba522f2de858a890441b701e"
+  },
+  "app/alugar/page.tsx": {
+    "mtime": 1792797205.2906709,
+    "seen": 1792807287.0574956,
+    "ast_hash": "cd79e032efea88862dffd0ae4c013e31",
+    "semantic_hash": "cd79e032efea88862dffd0ae4c013e31"
+  },
+  "app/api/contato/route.ts": {
+    "mtime": 1792797205.2908301,
+    "seen": 1792807287.0575047,
+    "ast_hash": "b65a52f6a96890c0d20f44114a6772e5",
+    "semantic_hash": "b65a52f6a96890c0d20f44114a6772e5"
+  },
+  "app/comprar/page.tsx": {
+    "mtime": 1792797205.2908301,
+    "seen": 1792807287.057512,
+    "ast_hash": "c0b4a905ab94db12f8cfe802525e80ce",
+    "semantic_hash": "c0b4a905ab94db12f8cfe802525e80ce"
+  },
+  "app/contato/page.tsx": {
+    "mtime": 1792797205.2908301,
+    "seen": 1792807287.0575166,
+    "ast_hash": "a53881190e3375306217f97b349adbe2",
+    "semantic_hash": "a53881190e3375306217f97b349adbe2"
+  },
+  "app/imoveis/[slug]/page.tsx": {
+    "mtime": 1792797205.2913442,
+    "seen": 1792807287.0575213,
+    "ast_hash": "fcef2294a65140973c2c5d364a1e64e3",
+    "semantic_hash": "fcef2294a65140973c2c5d364a1e64e3"
+  },
+  "app/layout.tsx": {
+    "mtime": 1792797205.2913442,
+    "seen": 1792807287.0575259,
+    "ast_hash": "53eef0001fe06aacde1a6c399224985e",
+    "semantic_hash": "53eef0001fe06aacde1a6c399224985e"
+  },
+  "app/page.tsx": {
+    "mtime": 1792797205.2913442,
+    "seen": 1792807287.0575297,
+    "ast_hash": "34ae52018d2a68164ee57aba6223c6c9",
+    "semantic_hash": "34ae52018d2a68164ee57aba6223c6c9"
+  },
+  "app/sobre-nos/page.tsx": {
+    "mtime": 1792797205.2913442,
+    "seen": 1792807287.0575347,
+    "ast_hash": "c268400215d926b05573934ffc799fce",
+    "semantic_hash": "c268400215d926b05573934ffc799fce"
+  },
+  "components/contato/ContactForm.tsx": {
+    "mtime": 1792797205.2917306,
+    "seen": 1792807287.0575385,
+    "ast_hash": "58e00d2ee812915e673dcc42f222399a",
+    "semantic_hash": "58e00d2ee812915e673dcc42f222399a"
+  },
+  "components/home/FeaturedProperties.tsx": {
+    "mtime": 1792797205.2917306,
+    "seen": 1792807287.0575426,
+    "ast_hash": "4400c8a306735a0ad180d70e64e30493",
+    "semantic_hash": "4400c8a306735a0ad180d70e64e30493"
+  },
+  "components/home/HeroSlider.tsx": {
+    "mtime": 1792797205.2918992,
+    "seen": 1792807287.0575478,
+    "ast_hash": "a094312733d6c1c18351cdd2a9ae08cb",
+    "semantic_hash": "a094312733d6c1c18351cdd2a9ae08cb"
+  },
+  "components/home/QuickCategories.tsx": {
+    "mtime": 1792797205.2918992,
+    "seen": 1792807287.0575519,
+    "ast_hash": "682a0ddd1079494f44249774defc36de",
+    "semantic_hash": "682a0ddd1079494f44249774defc36de"
+  },
+  "components/home/SearchBar.tsx": {
+    "mtime": 1792797205.2918992,
+    "seen": 1792807287.057555,
+    "ast_hash": "736a735b6a2dffcbc7d60a7b7c6528ce",
+    "semantic_hash": "736a735b6a2dffcbc7d60a7b7c6528ce"
+  },
+  "components/imoveis/CondominiumAmenities.tsx": {
+    "mtime": 1792797205.2918992,
+    "seen": 1792807287.0575595,
+    "ast_hash": "d31d5b671074c01a174ab80fe6617a20",
+    "semantic_hash": "d31d5b671074c01a174ab80fe6617a20"
+  },
+  "components/imoveis/FilterPanel.tsx": {
+    "mtime": 1792797205.2920892,
+    "seen": 1792807287.0575635,
+    "ast_hash": "4ab7d0bbe1a5f452127a196cf7eb8efe",
+    "semantic_hash": "4ab7d0bbe1a5f452127a196cf7eb8efe"
+  },
+  "components/imoveis/PropertyCard.tsx": {
+    "mtime": 1792797205.2920892,
+    "seen": 1792807287.057568,
+    "ast_hash": "917d732fb698e094b9f4faa30b5a9d3f",
+    "semantic_hash": "917d732fb698e094b9f4faa30b5a9d3f"
+  },
+  "components/imoveis/PropertyDescription.tsx": {
+    "mtime": 1792797205.2920892,
+    "seen": 1792807287.0575733,
+    "ast_hash": "a721e8cedb814b8a637ab57bd177967c",
+    "semantic_hash": "a721e8cedb814b8a637ab57bd177967c"
+  },
+  "components/imoveis/PropertyGallery.tsx": {
+    "mtime": 1792797205.2920892,
+    "seen": 1792807287.057578,
+    "ast_hash": "130ec66a9f7db09a86a5b064d4403e6e",
+    "semantic_hash": "130ec66a9f7db09a86a5b064d4403e6e"
+  },
+  "components/imoveis/PropertyGrid.tsx": {
+    "mtime": 1792797205.2920892,
+    "seen": 1792807287.0575826,
+    "ast_hash": "1b953f411bf10b00eb96de5e232af6e1",
+    "semantic_hash": "1b953f411bf10b00eb96de5e232af6e1"
+  },
+  "components/imoveis/PropertyMap.tsx": {
+    "mtime": 1792797205.2920892,
+    "seen": 1792807287.057587,
+    "ast_hash": "77c2cefc4bb07510a2529862e5b44077",
+    "semantic_hash": "77c2cefc4bb07510a2529862e5b44077"
+  },
+  "components/imoveis/PropertySpecs.tsx": {
+    "mtime": 1792797205.2920892,
+    "seen": 1792807287.057593,
+    "ast_hash": "e41e92c255c4157888aa2ff119cf5fd0",
+    "semantic_hash": "e41e92c255c4157888aa2ff119cf5fd0"
+  },
+  "components/layout/Footer.tsx": {
+    "mtime": 1792797205.2920892,
+    "seen": 1792807287.0576,
+    "ast_hash": "7f9ed4b5089b93c4fafd13ed3aa027d9",
+    "semantic_hash": "7f9ed4b5089b93c4fafd13ed3aa027d9"
+  },
+  "components/layout/Header.tsx": {
+    "mtime": 1792797205.292475,
+    "seen": 1792807287.0576034,
+    "ast_hash": "bfef1fc30f0eec969fcbe66efcc03227",
+    "semantic_hash": "bfef1fc30f0eec969fcbe66efcc03227"
+  },
+  "components/sobre/PillarCard.tsx": {
+    "mtime": 1792797205.292475,
+    "seen": 1792807287.057608,
+    "ast_hash": "96c7efbf82fa72726d7c65293e6761bd",
+    "semantic_hash": "96c7efbf82fa72726d7c65293e6761bd"
+  },
+  "components/sobre/StatsBar.tsx": {
+    "mtime": 1792797205.2925715,
+    "seen": 1792807287.057613,
+    "ast_hash": "2bcda99e528f97082cb460af572f06b8",
+    "semantic_hash": "2bcda99e528f97082cb460af572f06b8"
+  },
+  "components/sobre/TeamCard.tsx": {
+    "mtime": 1792797205.2925715,
+    "seen": 1792807287.0576172,
+    "ast_hash": "185cb27657a448a83d343bc84c117156",
+    "semantic_hash": "185cb27657a448a83d343bc84c117156"
+  },
+  "components/ui/CTABanner.tsx": {
+    "mtime": 1792797205.2925715,
+    "seen": 1792807287.0576212,
+    "ast_hash": "dc90e03bf0950291e79f228c2f0ed925",
+    "semantic_hash": "dc90e03bf0950291e79f228c2f0ed925"
+  },
+  "components/ui/YantraPattern.tsx": {
+    "mtime": 1792797205.292717,
+    "seen": 1792807287.0576255,
+    "ast_hash": "2d37812657875323ad83c436338c74ce",
+    "semantic_hash": "2d37812657875323ad83c436338c74ce"
+  },
+  "lib/formatters.ts": {
+    "mtime": 1792797205.292717,
+    "seen": 1792807287.057631,
+    "ast_hash": "335fe9eb16b55c47a9a0aca4f3bc0335",
+    "semantic_hash": "335fe9eb16b55c47a9a0aca4f3bc0335"
+  },
+  "lib/mockData.ts": {
+    "mtime": 1792797205.2928474,
+    "seen": 1792807287.0576358,
+    "ast_hash": "0b3534af4ee8692e423f750aad0266a2",
+    "semantic_hash": "0b3534af4ee8692e423f750aad0266a2"
+  },
+  "next.config.js": {
+    "mtime": 1792797205.2928474,
+    "seen": 1792807287.057643,
+    "ast_hash": "4830ca9f26265ec8356029d57197a206",
+    "semantic_hash": "4830ca9f26265ec8356029d57197a206"
+  },
+  "package.json": {
+    "mtime": 1792797205.2943442,
+    "seen": 1792807287.0576503,
+    "ast_hash": "a56c70927174ffc6d0b3ce326014d726",
+    "semantic_hash": "a56c70927174ffc6d0b3ce326014d726"
+  },
+  "postcss.config.js": {
+    "mtime": 1792797205.2943442,
+    "seen": 1792807287.0576556,
+    "ast_hash": "ef6e40de3eeede34ff3cfe3949778384",
+    "semantic_hash": "ef6e40de3eeede34ff3cfe3949778384"
+  },
+  "tailwind.config.ts": {
+    "mtime": 1792797205.3013442,
+    "seen": 1792807287.0576606,
+    "ast_hash": "57c28a58b5d6b63f7a35524c643f6684",
+    "semantic_hash": "57c28a58b5d6b63f7a35524c643f6684"
+  },
+  "tsconfig.json": {
+    "mtime": 1792797205.3013442,
+    "seen": 1792807287.0576656,
+    "ast_hash": "1d9dfc844f968268dcd600f454320186",
+    "semantic_hash": "1d9dfc844f968268dcd600f454320186"
+  },
+  "types/imovel.ts": {
+    "mtime": 1792797205.3013442,
+    "seen": 1792807287.0577226,
+    "ast_hash": "33217a85b5baddb746cb94574dc670f1",
+    "semantic_hash": "33217a85b5baddb746cb94574dc670f1"
+  },
+  ".claude/commands/checkpoint.md": {
+    "mtime": 1792797205.2895696,
+    "seen": 1792807287.057731,
+    "ast_hash": "47f9e640657bef03574e466968c15d0f",
+    "semantic_hash": "47f9e640657bef03574e466968c15d0f"
+  },
+  ".claude/commands/nova-pagina.md": {
+    "mtime": 1792797205.2899218,
+    "seen": 1792807287.057735,
+    "ast_hash": "80a909bd4b649aa9aced3b814db7f853",
+    "semantic_hash": "80a909bd4b649aa9aced3b814db7f853"
+  },
+  ".claude/commands/novo-componente.md": {
+    "mtime": 1792797205.2899218,
+    "seen": 1792807287.0577414,
+    "ast_hash": "5c7059b174b07b04e27637ef80a781ab",
+    "semantic_hash": "5c7059b174b07b04e27637ef80a781ab"
+  },
+  ".claude/commands/retomar.md": {
+    "mtime": 1792797205.2899218,
+    "seen": 1792807287.057746,
+    "ast_hash": "a12a5c9401f6559fcec20a2b76c491cc",
+    "semantic_hash": "a12a5c9401f6559fcec20a2b76c491cc"
+  },
+  ".claude/commands/revisar.md": {
+    "mtime": 1792797205.2899218,
+    "seen": 1792807287.0577495,
+    "ast_hash": "0037418018d9230c0dbb97cd9282a6ad",
+    "semantic_hash": "0037418018d9230c0dbb97cd9282a6ad"
+  },
+  "CLAUDE.md": {
+    "mtime": 1792797205.2899218,
+    "seen": 1792807287.0577533,
+    "ast_hash": "402ba42562b18d6e6eab8c20d0258857",
+    "semantic_hash": "402ba42562b18d6e6eab8c20d0258857"
+  },
+  "PROGRESS.md": {
+    "mtime": 1792797205.2899218,
+    "seen": 1792807287.0577624,
+    "ast_hash": "4e0984e7df3378ca6e8c6bd5355b59a8",
+    "semantic_hash": "4e0984e7df3378ca6e8c6bd5355b59a8"
+  },
+  "yantra-prompt-master.md": {
+    "mtime": 1792797205.3013442,
+    "seen": 1792807287.0577664,
+    "ast_hash": "c5736d0022e8a6fdf50a6853ff0f45bf",
+    "semantic_hash": "c5736d0022e8a6fdf50a6853ff0f45bf"
+  }
+}

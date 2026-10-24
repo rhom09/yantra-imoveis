@@ -1,0 +1,9 @@
+/home/rhom/Repos/yantra-imoveis/.claude/commands/checkpoint.md
+/home/rhom/Repos/yantra-imoveis/.claude/commands/nova-pagina.md
+/home/rhom/Repos/yantra-imoveis/.claude/commands/novo-componente.md
+/home/rhom/Repos/yantra-imoveis/.claude/commands/retomar.md
+/home/rhom/Repos/yantra-imoveis/.claude/commands/revisar.md
+/home/rhom/Repos/yantra-imoveis/CLAUDE.md
+/home/rhom/Repos/yantra-imoveis/PROGRESS.md
+/home/rhom/Repos/yantra-imoveis/yantra-prompt-master.md
+/home/rhom/Repos/yantra-imoveis/public/HeroYantra.png
