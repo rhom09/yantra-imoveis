@@ -7,9 +7,9 @@
 
 ## 🟢 Status Atual
 
-**Fase em andamento:** Fase 6 — Sanity CMS
-**Última atualização:** 2026-06-10
-**Próxima ação:** Configurar Sanity v3 e definir schemas para imovel e configuracoes.
+**Fase em andamento:** Fase 7 — Deploy & SEO
+**Última atualização:** 2026-10-24
+**Próxima ação:** Configurar metadados SEO dinâmicos e otimização final para deploy.
 
 ---
 
@@ -58,12 +58,12 @@
 - [x] YantraPattern.tsx
 
 ### Fase 6 — Sanity CMS
-- [ ] Setup Sanity v3
-- [ ] sanity/schemaTypes/imovel.ts
-- [ ] sanity/schemaTypes/configuracoes.ts
-- [ ] lib/sanity.ts — cliente configurado
-- [ ] lib/queries.ts — GROQ queries
-- [ ] Substituir mockData por queries reais
+- [x] Setup Sanity v3
+- [x] sanity/schemaTypes/imovel.ts
+- [x] sanity/schemaTypes/configuracoes.ts
+- [x] lib/sanity.ts — cliente configurado
+- [x] lib/queries.ts — GROQ queries
+- [x] Substituir mockData por queries reais (estruturas prontas com fallback para mock)
 
 ### Fase 7 — Deploy
 - [ ] SEO: metadata dinâmica por página
