@@ -11,7 +11,6 @@ export default function Header() {
           <Link href="/" className="hover:text-dourado transition-colors">HOME</Link>
           <Link href="/comprar" className="hover:text-dourado transition-colors">COMPRAR</Link>
           <Link href="/alugar" className="hover:text-dourado transition-colors">ALUGAR</Link>
-          <Link href="/imoveis-comerciais" className="hover:text-dourado transition-colors">COMERCIAIS</Link>
           <Link href="/sobre-nos" className="hover:text-dourado transition-colors">SOBRE NÓS</Link>
           <Link href="/contato" className="hover:text-dourado transition-colors">CONTATO</Link>
         </nav>

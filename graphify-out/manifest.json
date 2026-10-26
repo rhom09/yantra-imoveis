@@ -1,8 +1,8 @@
 {
   ".claude/settings.local.json": {
-    "mtime": 1792874416.2561946,
-    "seen": 1792878001.3922772,
-    "ast_hash": "bb0a04d5d01e44cb56ebcb7a1ebef292",
+    "mtime": 1792882336.6297083,
+    "seen": 1792882338.0165944,
+    "ast_hash": "95a568de08503ed1ef1376746f7b183e",
     "semantic_hash": ""
   },
   "app/alugar/page.tsx": {
@@ -138,10 +138,10 @@
     "semantic_hash": "7f9ed4b5089b93c4fafd13ed3aa027d9"
   },
   "components/layout/Header.tsx": {
-    "mtime": 1792797205.292475,
-    "seen": 1792807287.0576034,
-    "ast_hash": "bfef1fc30f0eec969fcbe66efcc03227",
-    "semantic_hash": "bfef1fc30f0eec969fcbe66efcc03227"
+    "mtime": 1792882308.332013,
+    "seen": 1792882338.016651,
+    "ast_hash": "70e751af4cf6b1b741f49d802825f008",
+    "semantic_hash": ""
   },
   "components/sobre/PillarCard.tsx": {
     "mtime": 1792797205.292475,

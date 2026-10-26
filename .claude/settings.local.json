@@ -7,7 +7,23 @@
   "permissions": {
     "allow": [
       "Bash(npm run *)",
-      "Bash(npm install *)"
+      "Bash(npm install *)",
+      "Bash(graphify update *)",
+      "Bash(mkdir -p docs/auditoria/screenshots)",
+      "mcp__plugin_playwright_playwright__browser_navigate",
+      "Bash(npx playwright *)",
+      "Bash(sudo -S npx playwright install chrome)",
+      "Bash(ls /tmp/claude-1000/ -R # Just to see what's available might not help, but let me check ToolSearch for playwright tools again.)",
+      "Read(//tmp/claude-1000/**)",
+      "mcp__plugin_playwright_playwright__browser_run_code_unsafe",
+      "mcp__plugin_playwright_playwright__browser_snapshot",
+      "mcp__plugin_playwright_playwright__browser_type",
+      "mcp__plugin_playwright_playwright__browser_click",
+      "mcp__plugin_playwright_playwright__browser_select_option"
+    ],
+    "additionalDirectories": [
+      "/home/rhom/Repos/yantra-imoveis/docs/auditoria",
+      "/home/rhom/Repos/yantra-imoveis/docs/auditoria/screenshots"
     ]
   }
 }
