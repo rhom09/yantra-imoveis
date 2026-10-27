@@ -6,6 +6,8 @@ export interface Imovel {
   tipoNegocio: "venda" | "locacao";
   tipoImovel: "casa" | "apartamento" | "terreno" | "comercial";
   valor: number;
+  condominio?: number;
+  iptu?: number;
   cidade: string;
   bairro: string;
   quartos: number;
@@ -13,8 +15,12 @@ export interface Imovel {
   banheiros: number;
   vagas: number;
   areaPrivativa: number;
+  areaTotal?: number;
+  andar?: number;
+  anoConstrucao?: number;
   endereco: string;
   descricao: string;
+  caracteristicas?: string[];
   comodidades?: string[];
   latitude?: number;
   longitude?: number;
