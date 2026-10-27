@@ -302,13 +302,15 @@ DETAIL_QUERY:
 3. QuickCategories (6 atalhos: Comprar, Alugar, Destaques, Comerciais, Avaliar, WhatsApp)
 4. FeaturedProperties (carrossel 4 cards, dados do Sanity filtro destaque==true)
 
-### Comprar / Alugar / Imóveis Comerciais
+### Comprar / Alugar
 1. Hero banner split (h-[50vh])
 2. FilterPanel flutuante sobrepondo o hero (-mt-12)
 3. Contador de resultados + ordenação
 4. PropertyGrid (4 col desktop / 2 tablet / 1 mobile)
 5. Pagination
 6. CTABanner final
+
+*(Nota: Imóveis comerciais estão integrados nas listagens de venda e locação através do filtro de tipo.)*
 
 ### Detalhe do Imóvel
 1. Breadcrumb (Home > Imóveis > Título)

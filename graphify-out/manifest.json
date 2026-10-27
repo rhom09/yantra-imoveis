@@ -30,9 +30,9 @@
     "semantic_hash": ""
   },
   "app/imoveis/[slug]/page.tsx": {
-    "mtime": 1793137921.1362762,
-    "seen": 1793138068.8903246,
-    "ast_hash": "ebc02c278d1534bb464adb4790e1c638",
+    "mtime": 1793138108.892256,
+    "seen": 1793138347.9588754,
+    "ast_hash": "a2cba3bd18c21258539e5e37d989ace7",
     "semantic_hash": ""
   },
   "app/layout.tsx": {

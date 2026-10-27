@@ -5,7 +5,7 @@ export default function FeaturedProperties() {
   const featured = MOCK_IMOVEIS.filter(i => i.destaque).slice(0, 4);
 
   return (
-    <section className="py-20 bg-white">
+    <section id="destaques" className="py-20 bg-white scroll-mt-20">
       <div className="container mx-auto px-6">
         <div className="flex items-center justify-between mb-10">
           <div>
