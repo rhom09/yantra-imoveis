@@ -30,10 +30,10 @@
     "semantic_hash": ""
   },
   "app/imoveis/[slug]/page.tsx": {
-    "mtime": 1792797205.2913442,
-    "seen": 1792807287.0575213,
-    "ast_hash": "fcef2294a65140973c2c5d364a1e64e3",
-    "semantic_hash": "fcef2294a65140973c2c5d364a1e64e3"
+    "mtime": 1793137921.1362762,
+    "seen": 1793138068.8903246,
+    "ast_hash": "ebc02c278d1534bb464adb4790e1c638",
+    "semantic_hash": ""
   },
   "app/layout.tsx": {
     "mtime": 1792797205.2913442,
@@ -66,10 +66,10 @@
     "semantic_hash": ""
   },
   "components/home/HeroSlider.tsx": {
-    "mtime": 1792797205.2918992,
-    "seen": 1792807287.0575478,
-    "ast_hash": "a094312733d6c1c18351cdd2a9ae08cb",
-    "semantic_hash": "a094312733d6c1c18351cdd2a9ae08cb"
+    "mtime": 1793136317.947899,
+    "seen": 1793138068.890347,
+    "ast_hash": "5bfe7ed6c5db23acadd02548e15c63df",
+    "semantic_hash": ""
   },
   "components/home/QuickCategories.tsx": {
     "mtime": 1792882979.6749806,
@@ -387,6 +387,12 @@
     "mtime": 1793115397.7699912,
     "seen": 1793116721.04256,
     "ast_hash": "ae2841d78568e0e474783421157d46bc",
+    "semantic_hash": ""
+  },
+  "components/ui/WhatsAppButton.tsx": {
+    "mtime": 1793137908.0594177,
+    "seen": 1793138068.8904023,
+    "ast_hash": "0c762b5cf72d684cb5a4c7a16d5d06a5",
     "semantic_hash": ""
   }
 }
