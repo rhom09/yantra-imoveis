@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
+import WhatsAppButton from "@/components/ui/WhatsAppButton";
 
 const slides = [
   {
@@ -49,9 +50,12 @@ export default function HeroSlider() {
               <p className="text-lg md:text-xl font-sans text-bege/90 mb-8 max-w-2xl">
                 {slide.subtitle}
               </p>
-              <button className="px-8 py-4 bg-dourado hover:bg-dourado-light text-verde-profundo font-semibold rounded-full transition-all">
+              <WhatsAppButton
+                variant="dourado"
+                mensagem="Olá! Vim pelo site da Yantra e gostaria de falar com um corretor."
+              >
                 FALAR NO WHATSAPP
-              </button>
+              </WhatsAppButton>
             </div>
           </div>
         </div>

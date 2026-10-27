@@ -1,17 +1,17 @@
 # Graph Report - yantra-imoveis  (2026-10-27)
 
 ## Corpus Check
-- 55 files · ~15,139 words
+- 55 files · ~15,245 words
 - Verdict: corpus is large enough that graph structure adds value.
 - Unclassified: 4 file(s) not represented in the graph (top: (none) 2, .css 1, .example 1)
 
 ## Summary
-- 310 nodes · 450 edges · 25 communities (21 shown, 4 thin omitted)
+- 310 nodes · 447 edges · 25 communities (21 shown, 4 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `024fe2a2`
+- Built from commit: `140cd1fc`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -43,27 +43,27 @@
 
 ## God Nodes (most connected - your core abstractions)
 1. `lucide-react` - 17 edges
-2. `compilerOptions` - 16 edges
-3. `YANTRA NEGÓCIOS IMOBILIÁRIOS — Prompt Master para Claude Code` - 16 edges
+2. `YANTRA NEGÓCIOS IMOBILIÁRIOS — Prompt Master para Claude Code` - 16 edges
+3. `compilerOptions` - 16 edges
 4. `next` - 13 edges
 5. `Yantra Negócios Imobiliários — CLAUDE.md` - 13 edges
 6. `react` - 12 edges
-7. `CTABanner()` - 10 edges
-8. `Imovel` - 8 edges
+7. `Imovel` - 8 edges
+8. `ORDEM DE IMPLEMENTAÇÃO` - 8 edges
 9. `✅ Concluído` - 8 edges
-10. `ORDEM DE IMPLEMENTAÇÃO` - 8 edges
+10. `PropertyDetailPage()` - 7 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `AlugarPage()` --calls--> `CTABanner()`  [EXTRACTED]
   app/alugar/page.tsx → components/ui/CTABanner.tsx
 - `ComprarPage()` --calls--> `CTABanner()`  [EXTRACTED]
   app/comprar/page.tsx → components/ui/CTABanner.tsx
-- `SobreNosPage()` --calls--> `CTABanner()`  [EXTRACTED]
-  app/sobre-nos/page.tsx → components/ui/CTABanner.tsx
 - `PropertyCardProps` --references--> `Imovel`  [EXTRACTED]
   components/imoveis/PropertyCard.tsx → types/imovel.ts
 - `PropertyGridProps` --references--> `Imovel`  [EXTRACTED]
   components/imoveis/PropertyGrid.tsx → types/imovel.ts
+- `SobreNosPage()` --calls--> `CTABanner()`  [EXTRACTED]
+  app/sobre-nos/page.tsx → components/ui/CTABanner.tsx
 
 ## Import Cycles
 - None detected.
@@ -139,7 +139,7 @@ Cohesion: 0.29
 Nodes (6): CONFIG_QUERY, DETAIL_QUERY, FEATURED_QUERY, LISTING_QUERY, next-sanity@^8.0.0, next-sanity
 
 ### Community 20 - "contato/page.tsx"
-Cohesion: 0.18
+Cohesion: 0.17
 Nodes (14): ContatoPage(), metadata, RootLayout(), ContactChannelCard(), ContactChannelCardProps, Footer(), Header(), CTABanner() (+6 more)
 
 ### Community 21 - "sanity.ts"
@@ -165,7 +165,7 @@ _Questions this graph is uniquely positioned to answer:_
 - **Should `YANTRA NEGÓCIOS IMOBILIÁRIOS — Prompt Master para Claude Code` be split into smaller, more focused modules?**
   _Cohesion score 0.05555555555555555 - nodes in this community are weakly interconnected._
 - **Why does `next` connect `contato/page.tsx` to `package.json`, `[slug]/page.tsx`, `sobre-nos/page.tsx`, `dependencies`, `app/page.tsx`, `lucide-react`, `route.ts`?**
-  _High betweenness centrality (0.060) - this node is a cross-community bridge._
+  _High betweenness centrality (0.061) - this node is a cross-community bridge._
 - **Should `[slug]/page.tsx` be split into smaller, more focused modules?**
   _Cohesion score 0.1477832512315271 - nodes in this community are weakly interconnected._
 - **Why does `YANTRA NEGÓCIOS IMOBILIÁRIOS — Prompt Master para Claude Code` connect `YANTRA NEGÓCIOS IMOBILIÁRIOS — Prompt Master para Claude Code` to `1. HOME (app/page.tsx)`?**

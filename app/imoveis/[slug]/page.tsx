@@ -7,6 +7,8 @@ import { formatarMoeda } from '@/lib/formatters';
 import { notFound } from 'next/navigation';
 import { MOCK_IMOVEIS } from '@/lib/mockData';
 
+import WhatsAppButton from '@/components/ui/WhatsAppButton';
+
 export default function PropertyDetailPage({ params }: { params: { slug: string } }) {
   const imovel = MOCK_IMOVEIS.find(i => i.slug.current === params.slug);
 
@@ -28,9 +30,12 @@ export default function PropertyDetailPage({ params }: { params: { slug: string 
             </p>
             <p className="text-3xl font-serif text-verde-escuro font-semibold">{formatarMoeda(imovel.valor)}</p>
 
-            <button className="w-full py-4 bg-verde-escuro text-white rounded-lg font-semibold hover:bg-verde-profundo transition duration-200">
+            <WhatsAppButton
+              variant="verde"
+              mensagem={`Olá! Tenho interesse no imóvel ${imovel.titulo} (${process.env.NEXT_PUBLIC_SITE_URL}/imoveis/${imovel.slug.current}).`}
+            >
               FALAR NO WHATSAPP
-            </button>
+            </WhatsAppButton>
 
             <PropertySpecs imovel={imovel} />
           </div>
