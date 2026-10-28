@@ -48,10 +48,10 @@
     "semantic_hash": "34ae52018d2a68164ee57aba6223c6c9"
   },
   "app/sobre-nos/page.tsx": {
-    "mtime": 1792797205.2913442,
-    "seen": 1792807287.0575347,
-    "ast_hash": "c268400215d926b05573934ffc799fce",
-    "semantic_hash": "c268400215d926b05573934ffc799fce"
+    "mtime": 1793195576.0414205,
+    "seen": 1793195652.328868,
+    "ast_hash": "4a154eb4a43e71cbe9f4122b93eb009e",
+    "semantic_hash": ""
   },
   "components/contato/ContactForm.tsx": {
     "mtime": 1793054835.149202,

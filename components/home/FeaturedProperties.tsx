@@ -1,8 +1,8 @@
 import PropertyCard from '../imoveis/PropertyCard';
-import { MOCK_IMOVEIS } from '@/lib/mockData';
+import { fetchFeaturedProperties } from '@/lib/sanityService';
 
-export default function FeaturedProperties() {
-  const featured = MOCK_IMOVEIS.filter(i => i.destaque).slice(0, 4);
+export default async function FeaturedProperties() {
+  const featured = await fetchFeaturedProperties();
 
   return (
     <section id="destaques" className="py-20 bg-white scroll-mt-20">

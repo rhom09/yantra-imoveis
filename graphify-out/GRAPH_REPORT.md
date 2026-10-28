@@ -1,17 +1,17 @@
-# Graph Report - yantra-imoveis  (2026-10-27)
+# Graph Report - yantra-imoveis  (2026-10-28)
 
 ## Corpus Check
-- 58 files · ~15,804 words
+- 58 files · ~15,736 words
 - Verdict: corpus is large enough that graph structure adds value.
 - Unclassified: 4 file(s) not represented in the graph (top: (none) 2, .css 1, .example 1)
 
 ## Summary
-- 320 nodes · 472 edges · 25 communities (21 shown, 4 thin omitted)
+- 320 nodes · 466 edges · 25 communities (21 shown, 4 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `3cc805df`
+- Built from commit: `fdd5c949`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -44,16 +44,18 @@
 ## God Nodes (most connected - your core abstractions)
 1. `lucide-react` - 18 edges
 2. `YANTRA NEGÓCIOS IMOBILIÁRIOS — Prompt Master para Claude Code` - 16 edges
-3. `next` - 16 edges
-4. `compilerOptions` - 16 edges
-5. `Yantra Negócios Imobiliários — CLAUDE.md` - 13 edges
-6. `react` - 13 edges
+3. `compilerOptions` - 16 edges
+4. `next` - 16 edges
+5. `react` - 13 edges
+6. `Yantra Negócios Imobiliários — CLAUDE.md` - 13 edges
 7. `Imovel` - 9 edges
 8. `PropertyDetailPage()` - 8 edges
 9. `gerarLinkWhatsApp()` - 8 edges
 10. `ORDEM DE IMPLEMENTAÇÃO` - 8 edges
 
 ## Surprising Connections (you probably didn't know these)
+- `SobreNosPage()` --calls--> `CTABanner()`  [EXTRACTED]
+  app/sobre-nos/page.tsx → components/ui/CTABanner.tsx
 - `PropertyCardProps` --references--> `Imovel`  [EXTRACTED]
   components/imoveis/PropertyCard.tsx → types/imovel.ts
 - `PropertyGridProps` --references--> `Imovel`  [EXTRACTED]
@@ -62,8 +64,6 @@
   app/alugar/page.tsx → components/ui/CTABanner.tsx
 - `ComprarPage()` --calls--> `CTABanner()`  [EXTRACTED]
   app/comprar/page.tsx → components/ui/CTABanner.tsx
-- `PropertyDetailPage()` --calls--> `CondominiumAmenities()`  [EXTRACTED]
-  app/imoveis/[slug]/page.tsx → components/imoveis/CondominiumAmenities.tsx
 
 ## Import Cycles
 - None detected.
@@ -91,8 +91,8 @@ Cohesion: 0.07
 Nodes (27): Componentes, Comprar / Alugar, Contato, Convenções de Código, Cores (usar SEMPRE via classes Tailwind — nunca hex inline), Design System, Detalhe do Imóvel, Estrutura de Pastas (+19 more)
 
 ### Community 5 - "sobre-nos/page.tsx"
-Cohesion: 0.26
-Nodes (8): SobreNosPage(), PillarCard(), PillarCardProps, StatItem, stats, StatsBar(), TeamCard(), TeamCardProps
+Cohesion: 0.28
+Nodes (6): SobreNosPage(), PillarCard(), PillarCardProps, StatItem, stats, StatsBar()
 
 ### Community 6 - "compilerOptions"
 Cohesion: 0.11
@@ -107,8 +107,8 @@ Cohesion: 0.25
 Nodes (8): dependencies, lucide-react@^0.379.0, next@14.2.4, @playwright/test@^1.64.1, react@^18.3.1, react-dom@^18.3.1, @playwright/test, react-dom
 
 ### Community 9 - "app/page.tsx"
-Cohesion: 0.20
-Nodes (12): Home(), ComerciaisMenu(), FeaturedProperties(), HeroSlider(), slides, categories, CategoryItem, QuickCategories() (+4 more)
+Cohesion: 0.16
+Nodes (13): Home(), ComerciaisMenu(), FeaturedProperties(), HeroSlider(), slides, categories, CategoryItem, QuickCategories() (+5 more)
 
 ### Community 10 - "nova-pagina.md"
 Cohesion: 0.25
@@ -160,12 +160,12 @@ Nodes (3): tailwindcss@^3.4.3, tailwindcss, config
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `next` connect `app/page.tsx` to `package.json`, `[slug]/page.tsx`, `sobre-nos/page.tsx`, `dependencies`, `lucide-react`, `contato/page.tsx`, `route.ts`?**
-  _High betweenness centrality (0.067) - this node is a cross-community bridge._
+- **Why does `next` connect `app/page.tsx` to `package.json`, `[slug]/page.tsx`, `dependencies`, `lucide-react`, `contato/page.tsx`, `route.ts`?**
+  _High betweenness centrality (0.071) - this node is a cross-community bridge._
 - **Should `YANTRA NEGÓCIOS IMOBILIÁRIOS — Prompt Master para Claude Code` be split into smaller, more focused modules?**
   _Cohesion score 0.05555555555555555 - nodes in this community are weakly interconnected._
-- **Why does `lucide-react` connect `[slug]/page.tsx` to `package.json`, `sobre-nos/page.tsx`, `dependencies`, `app/page.tsx`, `lucide-react`, `contato/page.tsx`?**
-  _High betweenness centrality (0.066) - this node is a cross-community bridge._
+- **Why does `lucide-react` connect `[slug]/page.tsx` to `package.json`, `dependencies`, `app/page.tsx`, `lucide-react`, `contato/page.tsx`?**
+  _High betweenness centrality (0.061) - this node is a cross-community bridge._
 - **Should `[slug]/page.tsx` be split into smaller, more focused modules?**
   _Cohesion score 0.12473118279569892 - nodes in this community are weakly interconnected._
 - **Why does `YANTRA NEGÓCIOS IMOBILIÁRIOS — Prompt Master para Claude Code` connect `YANTRA NEGÓCIOS IMOBILIÁRIOS — Prompt Master para Claude Code` to `1. HOME (app/page.tsx)`?**
