@@ -7,6 +7,7 @@
   "5": "sobre-nos/page.tsx",
   "6": "compilerOptions",
   "7": "✅ Concluído",
+  "8": "compilerOptions",
   "9": "[slug]/page.tsx",
   "10": "nova-pagina.md",
   "11": "Checklist de Revisão",
@@ -16,7 +17,5 @@
   "15": "retomar.md",
   "16": "next.config.js",
   "17": "postcss.config.js",
-  "18": "sanityService.ts",
-  "19": "sanity.config.ts",
-  "20": "contato/page.tsx"
+  "18": "sanityService.ts"
 }
