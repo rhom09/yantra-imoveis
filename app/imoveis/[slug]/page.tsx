@@ -7,6 +7,31 @@ import { formatarMoeda } from '@/lib/formatters';
 import { notFound } from 'next/navigation';
 import { fetchPropertyBySlug } from '@/lib/sanityService';
 import { WhatsAppButton } from '@/components/ui/WhatsAppButton';
+import { Metadata } from 'next';
+
+export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
+  const imovel = await fetchPropertyBySlug(params.slug);
+  if (!imovel) {
+    return {
+      title: 'Imóvel não encontrado',
+      description: 'O imóvel solicitado não foi encontrado ou está indisponível.',
+    };
+  }
+
+  const titulo = `${imovel.titulo} - ${imovel.bairro}, ${imovel.cidade}`;
+  const descricao = imovel.descricao.slice(0, 160);
+  const imagem = imovel.fotos?.[0]?.asset?.url || '';
+
+  return {
+    title: titulo,
+    description: descricao,
+    openGraph: {
+      title: `${titulo} | Yantra Negócios Imobiliários`,
+      description: descricao,
+      images: imagem ? [{ url: imagem, width: 1200, height: 630, alt: imovel.titulo }] : [],
+    },
+  };
+}
 
 export default async function PropertyDetailPage({ params }: { params: { slug: string } }) {
   const imovel = await fetchPropertyBySlug(params.slug);

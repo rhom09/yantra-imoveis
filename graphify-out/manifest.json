@@ -1,45 +1,46 @@
 {
   ".claude/settings.local.json": {
     "mtime": 1793045947.929627,
-    "seen": 1793056548.9919662,
+    "seen": 1793197708.4955773,
     "ast_hash": "83eae8e2dd49a5b52202229c3ac7b0a4",
-    "semantic_hash": ""
+    "semantic_hash": "83eae8e2dd49a5b52202229c3ac7b0a4",
+    "ast_empty": true
   },
   "app/alugar/page.tsx": {
-    "mtime": 1793115490.788495,
-    "seen": 1793116721.0423849,
-    "ast_hash": "b6b2e4e2639c1e84a630ac8cc39d0667",
-    "semantic_hash": ""
+    "mtime": 1793197087.9352121,
+    "seen": 1793197708.4955826,
+    "ast_hash": "0cbd6bdb0f2a0c9e0d2e8bfc59ceea0c",
+    "semantic_hash": "0cbd6bdb0f2a0c9e0d2e8bfc59ceea0c"
   },
   "app/api/contato/route.ts": {
     "mtime": 1793054828.0472713,
-    "seen": 1793056548.9919832,
+    "seen": 1793197708.4957523,
     "ast_hash": "a33e2057d6d7c87d15fe5b7ed57a945e",
-    "semantic_hash": ""
+    "semantic_hash": "a33e2057d6d7c87d15fe5b7ed57a945e"
   },
   "app/comprar/page.tsx": {
-    "mtime": 1793115468.4088633,
-    "seen": 1793116721.0423973,
-    "ast_hash": "5d9a159f64a49d18877ac1da08c578e4",
-    "semantic_hash": ""
+    "mtime": 1793197073.2173555,
+    "seen": 1793197708.495853,
+    "ast_hash": "1ca0bfaa7f3ffd32551db44074ec8d47",
+    "semantic_hash": "1ca0bfaa7f3ffd32551db44074ec8d47"
   },
   "app/contato/page.tsx": {
-    "mtime": 1793113732.6540706,
-    "seen": 1793114083.0288987,
-    "ast_hash": "7cc0d2e28cbaf0b3446964741c81e102",
-    "semantic_hash": ""
+    "mtime": 1793197100.7160876,
+    "seen": 1793197708.495937,
+    "ast_hash": "89dbf4953decbe1f33be115f89cb2a4b",
+    "semantic_hash": "89dbf4953decbe1f33be115f89cb2a4b"
   },
   "app/imoveis/[slug]/page.tsx": {
-    "mtime": 1793138108.892256,
-    "seen": 1793138347.9588754,
-    "ast_hash": "a2cba3bd18c21258539e5e37d989ace7",
-    "semantic_hash": ""
+    "mtime": 1793197108.1420152,
+    "seen": 1793197708.4960155,
+    "ast_hash": "dc96bf0836608791ea040b73e4bc9d43",
+    "semantic_hash": "dc96bf0836608791ea040b73e4bc9d43"
   },
   "app/layout.tsx": {
-    "mtime": 1792797205.2913442,
-    "seen": 1792807287.0575259,
-    "ast_hash": "53eef0001fe06aacde1a6c399224985e",
-    "semantic_hash": "53eef0001fe06aacde1a6c399224985e"
+    "mtime": 1793197051.294569,
+    "seen": 1793197708.4961002,
+    "ast_hash": "73a054f8065669390cebb1e993283f5d",
+    "semantic_hash": "73a054f8065669390cebb1e993283f5d"
   },
   "app/page.tsx": {
     "mtime": 1792797205.2913442,
@@ -48,40 +49,40 @@
     "semantic_hash": "34ae52018d2a68164ee57aba6223c6c9"
   },
   "app/sobre-nos/page.tsx": {
-    "mtime": 1793195576.0414205,
-    "seen": 1793195652.328868,
-    "ast_hash": "4a154eb4a43e71cbe9f4122b93eb009e",
-    "semantic_hash": ""
+    "mtime": 1793197094.3331497,
+    "seen": 1793197708.4964492,
+    "ast_hash": "43b4a5b4dc946826ca2c0f74d137f5f0",
+    "semantic_hash": "43b4a5b4dc946826ca2c0f74d137f5f0"
   },
   "components/contato/ContactForm.tsx": {
     "mtime": 1793054835.149202,
-    "seen": 1793056548.9920347,
+    "seen": 1793197708.4966195,
     "ast_hash": "a2b91a0571c9e3c23f61d392d89d0d77",
-    "semantic_hash": ""
+    "semantic_hash": "a2b91a0571c9e3c23f61d392d89d0d77"
   },
   "components/home/FeaturedProperties.tsx": {
-    "mtime": 1793139951.0259988,
-    "seen": 1793140128.5959866,
-    "ast_hash": "06f3be9892a9a17460891118c5791232",
-    "semantic_hash": ""
+    "mtime": 1793196541.9915264,
+    "seen": 1793197708.4967737,
+    "ast_hash": "5f8644891d09cc7199ed8b83ab6b9e39",
+    "semantic_hash": "5f8644891d09cc7199ed8b83ab6b9e39"
   },
   "components/home/HeroSlider.tsx": {
     "mtime": 1793136317.947899,
-    "seen": 1793138068.890347,
+    "seen": 1793197708.4968498,
     "ast_hash": "5bfe7ed6c5db23acadd02548e15c63df",
-    "semantic_hash": ""
+    "semantic_hash": "5bfe7ed6c5db23acadd02548e15c63df"
   },
   "components/home/QuickCategories.tsx": {
     "mtime": 1793139934.3481672,
-    "seen": 1793140128.595992,
+    "seen": 1793197708.4969254,
     "ast_hash": "38990064dc8c5ece2f685e7371c8b3cf",
-    "semantic_hash": ""
+    "semantic_hash": "38990064dc8c5ece2f685e7371c8b3cf"
   },
   "components/home/SearchBar.tsx": {
     "mtime": 1793115514.244104,
-    "seen": 1793116721.0424762,
+    "seen": 1793197708.4970007,
     "ast_hash": "cbb1202ae419fa2ea7a2f1e1837fadd4",
-    "semantic_hash": ""
+    "semantic_hash": "cbb1202ae419fa2ea7a2f1e1837fadd4"
   },
   "components/imoveis/CondominiumAmenities.tsx": {
     "mtime": 1792797205.2918992,
@@ -91,15 +92,15 @@
   },
   "components/imoveis/FilterPanel.tsx": {
     "mtime": 1793125175.5939722,
-    "seen": 1793125388.9507596,
+    "seen": 1793197708.4976048,
     "ast_hash": "dc9a8a0fe4870bf5d8a2ab964a228102",
-    "semantic_hash": ""
+    "semantic_hash": "dc9a8a0fe4870bf5d8a2ab964a228102"
   },
   "components/imoveis/PropertyCard.tsx": {
     "mtime": 1793125189.1198316,
-    "seen": 1793125388.9507668,
+    "seen": 1793197708.4979866,
     "ast_hash": "7d0e2ae7607774ce5a70cbcf46b9f39f",
-    "semantic_hash": ""
+    "semantic_hash": "7d0e2ae7607774ce5a70cbcf46b9f39f"
   },
   "components/imoveis/PropertyDescription.tsx": {
     "mtime": 1792797205.2920892,
@@ -115,9 +116,9 @@
   },
   "components/imoveis/PropertyGrid.tsx": {
     "mtime": 1793115450.3531566,
-    "seen": 1793116721.0425115,
+    "seen": 1793197708.4988935,
     "ast_hash": "565817407f147a608f6cb7f8c5e6539e",
-    "semantic_hash": ""
+    "semantic_hash": "565817407f147a608f6cb7f8c5e6539e"
   },
   "components/imoveis/PropertyMap.tsx": {
     "mtime": 1792797205.2920892,
@@ -127,9 +128,9 @@
   },
   "components/imoveis/PropertySpecs.tsx": {
     "mtime": 1793138922.5563006,
-    "seen": 1793140128.59602,
+    "seen": 1793197708.4992814,
     "ast_hash": "5a0eeb29fcb9e046126e0fd9db68ec37",
-    "semantic_hash": ""
+    "semantic_hash": "5a0eeb29fcb9e046126e0fd9db68ec37"
   },
   "components/layout/Footer.tsx": {
     "mtime": 1792797205.2920892,
@@ -139,9 +140,9 @@
   },
   "components/layout/Header.tsx": {
     "mtime": 1793121561.8579702,
-    "seen": 1793121699.3413591,
+    "seen": 1793197708.4996126,
     "ast_hash": "3a8b07aa13c0ba84792d2e54067d6b69",
-    "semantic_hash": ""
+    "semantic_hash": "3a8b07aa13c0ba84792d2e54067d6b69"
   },
   "components/sobre/PillarCard.tsx": {
     "mtime": 1792797205.292475,
@@ -175,27 +176,27 @@
   },
   "lib/formatters.ts": {
     "mtime": 1793113609.22057,
-    "seen": 1793114083.0292058,
+    "seen": 1793197708.5009756,
     "ast_hash": "e5bfc9f4cf4b4138adee081602e8bbfc",
-    "semantic_hash": ""
+    "semantic_hash": "e5bfc9f4cf4b4138adee081602e8bbfc"
   },
   "lib/mockData.ts": {
     "mtime": 1793115274.415815,
-    "seen": 1793116721.0425696,
+    "seen": 1793197708.5011413,
     "ast_hash": "b45393e081128bee61bdfe7c02781b09",
-    "semantic_hash": ""
+    "semantic_hash": "b45393e081128bee61bdfe7c02781b09"
   },
   "next.config.js": {
-    "mtime": 1792797205.2928474,
-    "seen": 1792807287.057643,
-    "ast_hash": "4830ca9f26265ec8356029d57197a206",
-    "semantic_hash": "4830ca9f26265ec8356029d57197a206"
+    "mtime": 1793197551.1185,
+    "seen": 1793197708.501531,
+    "ast_hash": "c5734cce071fceef40c671acd8db9722",
+    "semantic_hash": "c5734cce071fceef40c671acd8db9722"
   },
   "package.json": {
     "mtime": 1793043340.3001013,
-    "seen": 1793056548.9921937,
+    "seen": 1793197708.501628,
     "ast_hash": "15d6019642e65b14abf4b3d793cdb3f2",
-    "semantic_hash": ""
+    "semantic_hash": "15d6019642e65b14abf4b3d793cdb3f2"
   },
   "postcss.config.js": {
     "mtime": 1792797205.2943442,
@@ -217,9 +218,9 @@
   },
   "types/imovel.ts": {
     "mtime": 1793115626.7322059,
-    "seen": 1793116721.04263,
+    "seen": 1793197708.5023623,
     "ast_hash": "f6f895a7724e255617701530b6065cf2",
-    "semantic_hash": ""
+    "semantic_hash": "f6f895a7724e255617701530b6065cf2"
   },
   ".claude/commands/checkpoint.md": {
     "mtime": 1792797205.2895696,
@@ -271,9 +272,10 @@
   },
   ".claude/settings.json": {
     "mtime": 1792862828.3107965,
-    "seen": 1792863588.1773756,
+    "seen": 1793197708.4955666,
     "ast_hash": "8956bf587b6bd46a55347e56cdbcc544",
-    "semantic_hash": ""
+    "semantic_hash": "8956bf587b6bd46a55347e56cdbcc544",
+    "ast_empty": true
   },
   "public/HeroYantra.png": {
     "mtime": 1792797205.3003442,
@@ -283,45 +285,45 @@
   },
   "lib/queries.ts": {
     "mtime": 1792874373.9588687,
-    "seen": 1792878001.3923867,
+    "seen": 1793197708.501221,
     "ast_hash": "15b1cef77d58c350a527bd35cabf2565",
-    "semantic_hash": ""
+    "semantic_hash": "15b1cef77d58c350a527bd35cabf2565"
   },
   "lib/sanity.ts": {
     "mtime": 1792874367.2210984,
-    "seen": 1792878001.392389,
+    "seen": 1793197708.5012987,
     "ast_hash": "64ce7d039ca443dc350a3ffb3108cd98",
-    "semantic_hash": ""
+    "semantic_hash": "64ce7d039ca443dc350a3ffb3108cd98"
   },
   "sanity/sanity.config.ts": {
     "mtime": 1792874360.55108,
-    "seen": 1792878001.3923986,
+    "seen": 1793197708.5018415,
     "ast_hash": "e48c4f257198bb2aa62eebb6afa00e28",
-    "semantic_hash": ""
+    "semantic_hash": "e48c4f257198bb2aa62eebb6afa00e28"
   },
   "sanity/schemaTypes/configuracoes.ts": {
     "mtime": 1792874354.492062,
-    "seen": 1792878001.3924005,
+    "seen": 1793197708.501921,
     "ast_hash": "ebfc3ad18ba1b7772999e0d38056ff5b",
-    "semantic_hash": ""
+    "semantic_hash": "ebfc3ad18ba1b7772999e0d38056ff5b"
   },
   "sanity/schemaTypes/imovel.ts": {
     "mtime": 1792874348.6760437,
-    "seen": 1792878001.3924026,
+    "seen": 1793197708.5020084,
     "ast_hash": "a6d4b6553e6f8e984e591eebf20b305b",
-    "semantic_hash": ""
+    "semantic_hash": "a6d4b6553e6f8e984e591eebf20b305b"
   },
   "components/contato/ContactChannelCard.tsx": {
     "mtime": 1793113691.2692518,
-    "seen": 1793114083.0289578,
+    "seen": 1793197708.496527,
     "ast_hash": "4e7d64e01e86f0d98aadc3d317e2aa32",
-    "semantic_hash": ""
+    "semantic_hash": "4e7d64e01e86f0d98aadc3d317e2aa32"
   },
   "lib/whatsapp.ts": {
     "mtime": 1793054815.2443957,
-    "seen": 1793056548.9921842,
+    "seen": 1793197708.5014546,
     "ast_hash": "5a5960f86d6181252699fa8aa47d69fe",
-    "semantic_hash": ""
+    "semantic_hash": "5a5960f86d6181252699fa8aa47d69fe"
   },
   "public/comprar.jpeg": {
     "mtime": 1793110696.5022743,
@@ -379,32 +381,62 @@
   },
   "components/imoveis/Pagination.tsx": {
     "mtime": 1793115408.1298292,
-    "seen": 1793116721.0424914,
+    "seen": 1793197708.4977946,
     "ast_hash": "e0722ca1291e31bc275aa97965d87eec",
-    "semantic_hash": ""
+    "semantic_hash": "e0722ca1291e31bc275aa97965d87eec"
   },
   "hooks/useFilters.ts": {
     "mtime": 1793115397.7699912,
-    "seen": 1793116721.04256,
+    "seen": 1793197708.5008404,
     "ast_hash": "ae2841d78568e0e474783421157d46bc",
-    "semantic_hash": ""
+    "semantic_hash": "ae2841d78568e0e474783421157d46bc"
   },
   "components/ui/WhatsAppButton.tsx": {
     "mtime": 1793137908.0594177,
-    "seen": 1793138068.8904023,
+    "seen": 1793197708.5003507,
     "ast_hash": "0c762b5cf72d684cb5a4c7a16d5d06a5",
-    "semantic_hash": ""
+    "semantic_hash": "0c762b5cf72d684cb5a4c7a16d5d06a5"
   },
   "components/home/ComerciaisMenu.tsx": {
     "mtime": 1793139909.960413,
-    "seen": 1793140128.5959828,
+    "seen": 1793197708.4966977,
     "ast_hash": "31dd0ea4c5b6629e1e3013373cd0e6df",
-    "semantic_hash": ""
+    "semantic_hash": "31dd0ea4c5b6629e1e3013373cd0e6df"
   },
   "lib/imoveis.ts": {
     "mtime": 1793138818.5702586,
-    "seen": 1793140128.59605,
+    "seen": 1793197708.5010607,
     "ast_hash": "4f9d94765b7de6cb4639869043bcd965",
-    "semantic_hash": ""
+    "semantic_hash": "4f9d94765b7de6cb4639869043bcd965"
+  },
+  "lib/sanityService.ts": {
+    "mtime": 1793196525.1126904,
+    "seen": 1793197708.501376,
+    "ast_hash": "76d07614e3a1b2e8e9099c054cb09287",
+    "semantic_hash": "76d07614e3a1b2e8e9099c054cb09287"
+  },
+  "components/imoveis/AlugarPageContent.tsx": {
+    "mtime": 1793197081.889271,
+    "seen": 1793197708.4970763,
+    "ast_hash": "60cd135b1279b95cba01b6f405acfbec",
+    "semantic_hash": "60cd135b1279b95cba01b6f405acfbec"
+  },
+  "components/imoveis/ComprarPageContent.tsx": {
+    "mtime": 1793197068.861398,
+    "seen": 1793197708.4971528,
+    "ast_hash": "ae1b8037e5b2a3d565441eb35d56f4d8",
+    "semantic_hash": "ae1b8037e5b2a3d565441eb35d56f4d8"
+  },
+  "app/robots.ts": {
+    "mtime": 1793197562.1361537,
+    "seen": 1793197708.4963076,
+    "ast_hash": "0bfb5a6cfbdfff167df6b2938fa2510c",
+    "semantic_hash": "0bfb5a6cfbdfff167df6b2938fa2510c"
+  },
+  "app/sitemap.ts": {
+    "mtime": 1793197557.6786242,
+    "seen": 1793197708.4963787,
+    "ast_hash": "01b78c2517e7208e87157edf3e4308c0",
+    "semantic_hash": "01b78c2517e7208e87157edf3e4308c0"
   }
 }

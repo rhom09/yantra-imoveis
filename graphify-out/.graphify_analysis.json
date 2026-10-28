@@ -1,13 +1,16 @@
 {
   "communities": {
     "0": [
+      "app_api_contato_route",
+      "app_api_contato_route_post",
       "package",
       "package_dependencies",
       "package_dependencies_lucide_react",
       "package_dependencies_next",
-      "package_dependencies_next_sanity",
+      "package_dependencies_playwright_test",
       "package_dependencies_react",
       "package_dependencies_react_dom",
+      "package_dependencies_resend",
       "package_dependencies_sanity_image_url",
       "package_devdependencies",
       "package_devdependencies_autoprefixer",
@@ -26,9 +29,10 @@
       "package_scripts_start",
       "package_version",
       "ref_autoprefixer",
-      "ref_next_sanity",
+      "ref_playwright_test",
       "ref_postcss",
       "ref_react_dom",
+      "ref_resend",
       "ref_sanity_image_url",
       "ref_tailwindcss",
       "ref_types_node",
@@ -41,29 +45,29 @@
     "1": [
       "yantra_prompt_master",
       "yantra_prompt_master_acessibilidade_e_seo",
-      "yantra_prompt_master_botão_whatsapp_flutuante",
+      "yantra_prompt_master_bot\u00e3o_whatsapp_flutuante",
       "yantra_prompt_master_componentes_principais",
-      "yantra_prompt_master_configuração_tailwind",
+      "yantra_prompt_master_configura\u00e7\u00e3o_tailwind",
       "yantra_prompt_master_contexto_do_projeto",
       "yantra_prompt_master_ctabanner_tsx",
       "yantra_prompt_master_dados_mock_para_desenvolvimento_inicial",
       "yantra_prompt_master_design_system",
       "yantra_prompt_master_estrutura_do_projeto",
-      "yantra_prompt_master_fase_1_fundação_sessão_1",
-      "yantra_prompt_master_fase_2_home_sessão_2",
-      "yantra_prompt_master_fase_3_listagens_sessão_3",
-      "yantra_prompt_master_fase_4_detalhe_do_imóvel_sessão_4",
-      "yantra_prompt_master_fase_5_institucional_sessão_5",
-      "yantra_prompt_master_fase_6_sanity_cms_sessão_6",
-      "yantra_prompt_master_fase_7_polimento_e_deploy_sessão_7",
+      "yantra_prompt_master_fase_1_funda\u00e7\u00e3o_sess\u00e3o_1",
+      "yantra_prompt_master_fase_2_home_sess\u00e3o_2",
+      "yantra_prompt_master_fase_3_listagens_sess\u00e3o_3",
+      "yantra_prompt_master_fase_4_detalhe_do_im\u00f3vel_sess\u00e3o_4",
+      "yantra_prompt_master_fase_5_institucional_sess\u00e3o_5",
+      "yantra_prompt_master_fase_6_sanity_cms_sess\u00e3o_6",
+      "yantra_prompt_master_fase_7_polimento_e_deploy_sess\u00e3o_7",
       "yantra_prompt_master_footer_tsx",
       "yantra_prompt_master_formatadores_lib_formatters_ts",
       "yantra_prompt_master_google_maps",
       "yantra_prompt_master_header_tsx",
-      "yantra_prompt_master_integrações",
-      "yantra_prompt_master_observações_finais",
-      "yantra_prompt_master_ordem_de_implementação",
-      "yantra_prompt_master_padrões_visuais",
+      "yantra_prompt_master_integra\u00e7\u00f5es",
+      "yantra_prompt_master_observa\u00e7\u00f5es_finais",
+      "yantra_prompt_master_ordem_de_implementa\u00e7\u00e3o",
+      "yantra_prompt_master_padr\u00f5es_visuais",
       "yantra_prompt_master_paleta_de_cores",
       "yantra_prompt_master_propertycard_tsx",
       "yantra_prompt_master_queries_groq_principais",
@@ -71,56 +75,127 @@
       "yantra_prompt_master_sanity_cms",
       "yantra_prompt_master_schema_imovel_ts",
       "yantra_prompt_master_sectionheader_tsx",
-      "yantra_prompt_master_stack_tecnológica",
+      "yantra_prompt_master_stack_tecnol\u00f3gica",
       "yantra_prompt_master_tipografia",
       "yantra_prompt_master_whatsapp_lib_whatsapp_ts",
-      "yantra_prompt_master_yantra_negócios_imobiliários_prompt_master_para_claude_code"
+      "yantra_prompt_master_yantra_neg\u00f3cios_imobili\u00e1rios_prompt_master_para_claude_code"
     ],
     "2": [
-      "app_imoveis_slug_page",
-      "app_imoveis_slug_page_propertydetailpage",
+      "app_globals",
+      "app_layout",
+      "app_layout_metadata",
+      "app_layout_rootlayout",
+      "app_page",
+      "app_page_home",
+      "app_robots",
+      "app_robots_robots",
+      "components_home_comerciaismenu",
+      "components_home_comerciaismenu_comerciaismenu",
+      "components_home_heroslider",
+      "components_home_heroslider_heroslider",
+      "components_home_heroslider_slides",
+      "components_home_quickcategories",
+      "components_home_quickcategories_categories",
+      "components_home_quickcategories_categoryitem",
+      "components_home_quickcategories_quickcategories",
+      "components_home_searchbar",
+      "components_home_searchbar_searchbar",
+      "components_layout_footer",
+      "components_layout_footer_footer",
+      "components_layout_header",
+      "components_layout_header_header",
+      "components_sobre_teamcard",
+      "components_sobre_teamcard_teamcard",
+      "components_sobre_teamcard_teamcardprops",
+      "components_ui_whatsappbutton",
+      "components_ui_whatsappbutton_whatsappbutton",
+      "components_ui_whatsappbutton_whatsappbuttonprops",
+      "lib_whatsapp",
+      "lib_whatsapp_email_contato",
+      "lib_whatsapp_gerarlinkwhatsapp",
+      "lib_whatsapp_numero_whatsapp",
+      "ref_next"
+    ],
+    "3": [
+      "app_sitemap",
+      "app_sitemap_sitemap",
       "components_home_featuredproperties",
-      "components_home_featuredproperties_mockimoveis",
-      "components_imoveis_condominiumamenities",
-      "components_imoveis_condominiumamenities_condominiumamenities",
-      "components_imoveis_condominiumamenities_condominiumamenitiesprops",
+      "components_home_featuredproperties_featuredproperties",
       "components_imoveis_propertycard",
       "components_imoveis_propertycard_propertycard",
-      "components_imoveis_propertydescription",
-      "components_imoveis_propertydescription_propertydescription",
-      "components_imoveis_propertydescription_propertydescriptionprops",
-      "components_imoveis_propertygallery",
-      "components_imoveis_propertygallery_propertygallery",
-      "components_imoveis_propertygrid",
-      "components_imoveis_propertymap",
-      "components_imoveis_propertymap_propertymap",
-      "components_imoveis_propertymap_propertymapprops",
+      "components_imoveis_propertycard_propertycardprops",
+      "components_imoveis_propertygrid_propertygridprops",
       "components_imoveis_propertyspecs",
-      "components_imoveis_propertyspecs_propertyspecs",
-      "lib_formatters",
-      "lib_formatters_formatararea",
+      "components_imoveis_propertyspecs_iconmap",
       "lib_formatters_formatarmoeda",
+      "lib_imoveis",
+      "lib_imoveis_getspecs",
+      "lib_imoveis_spec",
       "lib_mockdata",
       "lib_mockdata_mock_imoveis",
-      "ref_lucide_react",
-      "ref_react",
+      "lib_queries",
+      "lib_queries_config_query",
+      "lib_queries_detail_query",
+      "lib_queries_featured_query",
+      "lib_queries_listing_query",
+      "lib_sanity",
+      "lib_sanity_builder",
+      "lib_sanity_client",
+      "lib_sanity_urlfor",
+      "lib_sanityservice",
+      "lib_sanityservice_fetchfeaturedproperties",
+      "lib_sanityservice_fetchlistings",
+      "lib_sanityservice_issanityconfigured",
+      "lib_sanityservice_listingparams",
+      "package_dependencies_next_sanity",
+      "ref_next_sanity",
       "types_imovel",
       "types_imovel_imovel"
     ],
-    "3": [
+    "4": [
+      "claude",
+      "claude_componentes",
+      "claude_comprar_alugar",
+      "claude_contato",
+      "claude_conven\u00e7\u00f5es_de_c\u00f3digo",
+      "claude_cores_usar_sempre_via_classes_tailwind_nunca_hex_inline",
+      "claude_design_system",
+      "claude_detalhe_do_im\u00f3vel",
+      "claude_estrutura_de_pastas",
+      "claude_fases_de_implementa\u00e7\u00e3o",
+      "claude_graphify",
+      "claude_groq_queries_principais_lib_queries_ts",
+      "claude_home",
+      "claude_informa\u00e7\u00f5es_da_empresa_placeholder_atualizar_antes_do_deploy",
+      "claude_linguagem_no_c\u00f3digo",
+      "claude_nomenclatura",
+      "claude_nunca_fazer",
+      "claude_padr\u00f5es_visuais_recorrentes",
+      "claude_p\u00e1ginas_e_se\u00e7\u00f5es",
+      "claude_regras_cr\u00edticas_do_projeto",
+      "claude_sanity_schema_do_im\u00f3vel",
+      "claude_sempre_fazer",
+      "claude_sobre_n\u00f3s",
+      "claude_stack_tecnol\u00f3gica",
+      "claude_tipografia",
+      "claude_vari\u00e1veis_de_ambiente_env_local",
+      "claude_whatsapp_integra\u00e7\u00e3o",
+      "claude_yantra_neg\u00f3cios_imobili\u00e1rios_claude_md"
+    ],
+    "5": [
       "yantra_prompt_master_1_home_app_page_tsx",
       "yantra_prompt_master_2_comprar_app_comprar_page_tsx",
-      "yantra_prompt_master_3_detalhe_do_imóvel_app_imoveis_slug_page_tsx",
-      "yantra_prompt_master_4_sobre_nós_app_sobre_nos_page_tsx",
+      "yantra_prompt_master_3_detalhe_do_im\u00f3vel_app_imoveis_slug_page_tsx",
+      "yantra_prompt_master_4_sobre_n\u00f3s_app_sobre_nos_page_tsx",
       "yantra_prompt_master_5_contato_app_contato_page_tsx",
-      "yantra_prompt_master_barra_de_estatísticas",
+      "yantra_prompt_master_barra_de_estat\u00edsticas",
       "yantra_prompt_master_breadcrumb",
-      "yantra_prompt_master_conteúdo_principal_grid_2_colunas",
+      "yantra_prompt_master_conte\u00fado_principal_grid_2_colunas",
       "yantra_prompt_master_cta_banner",
-      "yantra_prompt_master_cta_banner_com_fundo_de_imóvel",
+      "yantra_prompt_master_cta_banner_com_fundo_de_im\u00f3vel",
       "yantra_prompt_master_cta_banner_final",
-      "yantra_prompt_master_dados_do_imóvel",
-      "yantra_prompt_master_descrição_localização_grid_2_colunas",
+      "yantra_prompt_master_dados_do_im\u00f3vel",
+      "yantra_prompt_master_descri\u00e7\u00e3o_localiza\u00e7\u00e3o_grid_2_colunas",
       "yantra_prompt_master_filterpanel_2_linhas",
       "yantra_prompt_master_footer",
       "yantra_prompt_master_hero_banner",
@@ -130,49 +205,52 @@
       "yantra_prompt_master_mapa_sede_grid_2_colunas",
       "yantra_prompt_master_nossa_equipe",
       "yantra_prompt_master_nossos_pilares",
-      "yantra_prompt_master_páginas",
+      "yantra_prompt_master_p\u00e1ginas",
       "yantra_prompt_master_resultados",
-      "yantra_prompt_master_seção_busca_rápida",
-      "yantra_prompt_master_seção_categorias_rápidas",
-      "yantra_prompt_master_seção_hero_heroslider",
-      "yantra_prompt_master_seção_imóveis_em_destaque"
+      "yantra_prompt_master_se\u00e7\u00e3o_busca_r\u00e1pida",
+      "yantra_prompt_master_se\u00e7\u00e3o_categorias_r\u00e1pidas",
+      "yantra_prompt_master_se\u00e7\u00e3o_hero_heroslider",
+      "yantra_prompt_master_se\u00e7\u00e3o_im\u00f3veis_em_destaque"
     ],
-    "4": [
-      "claude",
-      "claude_componentes",
-      "claude_comprar_alugar_imóveis_comerciais",
-      "claude_contato",
-      "claude_convenções_de_código",
-      "claude_cores_usar_sempre_via_classes_tailwind_nunca_hex_inline",
-      "claude_design_system",
-      "claude_detalhe_do_imóvel",
-      "claude_estrutura_de_pastas",
-      "claude_fases_de_implementação",
-      "claude_groq_queries_principais_lib_queries_ts",
-      "claude_home",
-      "claude_informações_da_empresa_placeholder_atualizar_antes_do_deploy",
-      "claude_linguagem_no_código",
-      "claude_nomenclatura",
-      "claude_nunca_fazer",
-      "claude_padrões_visuais_recorrentes",
-      "claude_páginas_e_seções",
-      "claude_regras_críticas_do_projeto",
-      "claude_sanity_schema_do_imóvel",
-      "claude_sempre_fazer",
-      "claude_sobre_nós",
-      "claude_stack_tecnológica",
-      "claude_tipografia",
-      "claude_variáveis_de_ambiente_env_local",
-      "claude_whatsapp_integração",
-      "claude_yantra_negócios_imobiliários_claude_md"
-    ],
-    "5": [
-      "app_contato_page",
-      "app_contato_page_contatopage",
-      "app_sobre_nos_page",
-      "app_sobre_nos_page_sobrenospage",
+    "6": [
+      "app_alugar_page",
+      "app_alugar_page_alugarpage",
+      "app_alugar_page_metadata",
+      "app_comprar_page",
+      "app_comprar_page_comprarpage",
+      "app_comprar_page_metadata",
       "components_contato_contactform",
       "components_contato_contactform_contactform",
+      "components_imoveis_alugarpagecontent",
+      "components_imoveis_alugarpagecontent_alugarcontent",
+      "components_imoveis_alugarpagecontent_alugarpagecontent",
+      "components_imoveis_comprarpagecontent",
+      "components_imoveis_comprarpagecontent_comprarcontent",
+      "components_imoveis_comprarpagecontent_comprarpagecontent",
+      "components_imoveis_filterpanel",
+      "components_imoveis_filterpanel_filterpanel",
+      "components_imoveis_filterpanel_filterpanelprops",
+      "components_imoveis_pagination",
+      "components_imoveis_pagination_pagination",
+      "components_imoveis_pagination_paginationprops",
+      "components_imoveis_propertygrid",
+      "components_imoveis_propertygrid_propertygrid",
+      "hooks_usefilters",
+      "hooks_usefilters_filterstate",
+      "hooks_usefilters_usefilters",
+      "ref_lucide_react",
+      "ref_react"
+    ],
+    "7": [
+      "app_contato_page",
+      "app_contato_page_contatopage",
+      "app_contato_page_metadata",
+      "app_sobre_nos_page",
+      "app_sobre_nos_page_metadata",
+      "app_sobre_nos_page_sobrenospage",
+      "components_contato_contactchannelcard",
+      "components_contato_contactchannelcard_contactchannelcard",
+      "components_contato_contactchannelcard_contactchannelcardprops",
       "components_sobre_pillarcard",
       "components_sobre_pillarcard_pillarcard",
       "components_sobre_pillarcard_pillarcardprops",
@@ -180,15 +258,15 @@
       "components_sobre_statsbar_statitem",
       "components_sobre_statsbar_stats",
       "components_sobre_statsbar_statsbar",
-      "components_sobre_teamcard",
-      "components_sobre_teamcard_teamcard",
-      "components_sobre_teamcard_teamcardprops",
       "components_ui_ctabanner",
       "components_ui_ctabanner_ctabanner",
       "components_ui_yantrapattern",
-      "components_ui_yantrapattern_yantrapattern"
+      "components_ui_yantrapattern_yantrapattern",
+      "lib_formatters",
+      "lib_formatters_formatararea",
+      "lib_formatters_formatartelefone"
     ],
-    "6": [
+    "8": [
       "tsconfig",
       "tsconfig_compileroptions",
       "tsconfig_compileroptions_allowjs",
@@ -209,272 +287,228 @@
       "tsconfig_exclude",
       "tsconfig_include"
     ],
-    "7": [
+    "9": [
+      "app_imoveis_slug_page",
+      "app_imoveis_slug_page_generatemetadata",
+      "app_imoveis_slug_page_propertydetailpage",
+      "components_imoveis_condominiumamenities",
+      "components_imoveis_condominiumamenities_condominiumamenities",
+      "components_imoveis_condominiumamenities_condominiumamenitiesprops",
+      "components_imoveis_propertydescription",
+      "components_imoveis_propertydescription_propertydescription",
+      "components_imoveis_propertydescription_propertydescriptionprops",
+      "components_imoveis_propertygallery",
+      "components_imoveis_propertygallery_propertygallery",
+      "components_imoveis_propertymap",
+      "components_imoveis_propertymap_propertymap",
+      "components_imoveis_propertymap_propertymapprops",
+      "components_imoveis_propertyspecs_propertyspecs",
+      "lib_sanityservice_fetchpropertybyslug"
+    ],
+    "10": [
       "progress",
-      "progress_concluído",
-      "progress_decisões_tomadas",
-      "progress_fase_1_fundação",
+      "progress_conclu\u00eddo",
+      "progress_decis\u00f5es_tomadas",
+      "progress_fase_1_funda\u00e7\u00e3o",
       "progress_fase_2_home",
       "progress_fase_3_listagens",
-      "progress_fase_4_detalhe_do_imóvel",
+      "progress_fase_4_detalhe_do_im\u00f3vel",
       "progress_fase_5_institucional",
       "progress_fase_6_sanity_cms",
       "progress_fase_7_deploy",
-      "progress_notas_da_sessão_atual",
+      "progress_notas_da_sess\u00e3o_atual",
       "progress_problemas_conhecidos",
       "progress_status_atual",
       "progress_yantra_progresso_do_desenvolvimento"
     ],
-    "8": [
-      "app_api_contato_route",
-      "app_api_contato_route_post",
-      "app_api_contato_route_resend",
-      "app_globals",
-      "app_layout",
-      "app_layout_metadata",
-      "app_layout_rootlayout",
-      "components_layout_footer",
-      "components_layout_footer_footer",
-      "components_layout_header",
-      "components_layout_header_header",
-      "ref_next",
-      "ref_resend"
-    ],
-    "9": [
-      "app_page",
-      "app_page_home",
-      "components_home_featuredproperties_featuredproperties",
-      "components_home_heroslider",
-      "components_home_heroslider_heroslider",
-      "components_home_heroslider_slides",
-      "components_home_quickcategories",
-      "components_home_quickcategories_categories",
-      "components_home_quickcategories_quickcategories",
-      "components_home_searchbar",
-      "components_home_searchbar_searchbar"
-    ],
-    "10": [
+    "11": [
       "claude_commands_nova_pagina",
       "claude_commands_nova_pagina_entrega",
-      "claude_commands_nova_pagina_estrutura_obrigatória_de_toda_página_yantra",
-      "claude_commands_nova_pagina_padrões_de_seções_por_tipo_de_página",
-      "claude_commands_nova_pagina_página_de_detalhe",
-      "claude_commands_nova_pagina_página_de_listagem_comprar_alugar_comerciais",
-      "claude_commands_nova_pagina_página_institucional_sobre_contato",
-      "claude_commands_nova_pagina_regras_obrigatórias"
+      "claude_commands_nova_pagina_estrutura_obrigat\u00f3ria_de_toda_p\u00e1gina_yantra",
+      "claude_commands_nova_pagina_padr\u00f5es_de_se\u00e7\u00f5es_por_tipo_de_p\u00e1gina",
+      "claude_commands_nova_pagina_p\u00e1gina_de_detalhe",
+      "claude_commands_nova_pagina_p\u00e1gina_de_listagem_comprar_alugar_comerciais",
+      "claude_commands_nova_pagina_p\u00e1gina_institucional_sobre_contato",
+      "claude_commands_nova_pagina_regras_obrigat\u00f3rias"
     ],
-    "11": [
+    "12": [
       "claude_commands_revisar",
       "claude_commands_revisar_acessibilidade",
-      "claude_commands_revisar_checklist_de_revisão",
-      "claude_commands_revisar_conteúdo",
-      "claude_commands_revisar_código",
+      "claude_commands_revisar_checklist_de_revis\u00e3o",
+      "claude_commands_revisar_conte\u00fado",
+      "claude_commands_revisar_c\u00f3digo",
       "claude_commands_revisar_design_system",
       "claude_commands_revisar_entrega",
       "claude_commands_revisar_responsividade"
     ],
-    "12": [
-      "app_alugar_page",
-      "app_alugar_page_alugarpage",
-      "app_comprar_page",
-      "app_comprar_page_comprarpage",
-      "components_imoveis_filterpanel",
-      "components_imoveis_filterpanel_filterpanel",
-      "components_imoveis_propertygrid_propertygrid"
-    ],
     "13": [
-      "claude_commands_checkpoint",
-      "claude_commands_checkpoint_1_levante_o_que_foi_feito_nesta_sessão",
-      "claude_commands_checkpoint_2_atualize_o_progress_md",
-      "claude_commands_checkpoint_3_verifique_inconsistências",
-      "claude_commands_checkpoint_4_confirme_ao_usuário"
+      "ref_sanity",
+      "sanity_sanity_config",
+      "sanity_schematypes_configuracoes",
+      "sanity_schematypes_configuracoes_configuracoes",
+      "sanity_schematypes_imovel",
+      "sanity_schematypes_imovel_imovel"
     ],
     "14": [
+      "claude_commands_checkpoint",
+      "claude_commands_checkpoint_1_levante_o_que_foi_feito_nesta_sess\u00e3o",
+      "claude_commands_checkpoint_2_atualize_o_progress_md",
+      "claude_commands_checkpoint_3_verifique_inconsist\u00eancias",
+      "claude_commands_checkpoint_4_confirme_ao_usu\u00e1rio"
+    ],
+    "15": [
       "claude_commands_novo_componente",
       "claude_commands_novo_componente_design_system_a_aplicar",
       "claude_commands_novo_componente_entrega",
-      "claude_commands_novo_componente_estrutura_obrigatória",
-      "claude_commands_novo_componente_regras_de_código"
-    ],
-    "15": [
-      "claude_commands_retomar",
-      "claude_commands_retomar_1_leia_os_arquivos_de_contexto",
-      "claude_commands_retomar_2_faça_um_diagnóstico_rápido",
-      "claude_commands_retomar_3_pergunte_como_prosseguir"
+      "claude_commands_novo_componente_estrutura_obrigat\u00f3ria",
+      "claude_commands_novo_componente_regras_de_c\u00f3digo"
     ],
     "16": [
-      "next",
+      "claude_commands_retomar",
+      "claude_commands_retomar_1_leia_os_arquivos_de_contexto",
+      "claude_commands_retomar_2_fa\u00e7a_um_diagn\u00f3stico_r\u00e1pido",
+      "claude_commands_retomar_3_pergunte_como_prosseguir"
+    ],
+    "17": [
       "next_config",
       "next_config_nextconfig"
     ],
-    "17": [
+    "18": [
       "postcss_config"
     ]
   },
   "cohesion": {
-    "0": 0.07142857142857142,
+    "0": 0.0641025641025641,
     "1": 0.05555555555555555,
-    "2": 0.14285714285714285,
-    "3": 0.07142857142857142,
-    "4": 0.07407407407407407,
-    "5": 0.1736842105263158,
-    "6": 0.10526315789473684,
-    "7": 0.14285714285714285,
-    "8": 0.21794871794871795,
-    "9": 0.3090909090909091,
-    "10": 0.25,
+    "2": 0.09982174688057041,
+    "3": 0.1051693404634581,
+    "4": 0.07142857142857142,
+    "5": 0.07142857142857142,
+    "6": 0.1737891737891738,
+    "7": 0.1383399209486166,
+    "8": 0.10526315789473684,
+    "9": 0.18333333333333332,
+    "10": 0.14285714285714285,
     "11": 0.25,
-    "12": 0.6190476190476191,
-    "13": 0.4,
+    "12": 0.25,
+    "13": 0.4666666666666667,
     "14": 0.4,
-    "15": 0.5,
-    "16": 0.6666666666666666,
-    "17": 1.0
+    "15": 0.4,
+    "16": 0.5,
+    "17": 1.0,
+    "18": 1.0
   },
   "gods": [
+    {
+      "id": "ref_next",
+      "label": "next",
+      "degree": 21
+    },
+    {
+      "id": "ref_lucide_react",
+      "label": "lucide-react",
+      "degree": 18
+    },
+    {
+      "id": "yantra_prompt_master_yantra_neg\u00f3cios_imobili\u00e1rios_prompt_master_para_claude_code",
+      "label": "YANTRA NEG\u00d3CIOS IMOBILI\u00c1RIOS \u2014 Prompt Master para Claude Code",
+      "degree": 16
+    },
     {
       "id": "tsconfig_compileroptions",
       "label": "compilerOptions",
       "degree": 16
     },
     {
-      "id": "yantra_prompt_master_yantra_negócios_imobiliários_prompt_master_para_claude_code",
-      "label": "YANTRA NEGÓCIOS IMOBILIÁRIOS — Prompt Master para Claude Code",
-      "degree": 16
+      "id": "claude_yantra_neg\u00f3cios_imobili\u00e1rios_claude_md",
+      "label": "Yantra Neg\u00f3cios Imobili\u00e1rios \u2014 CLAUDE.md",
+      "degree": 13
     },
     {
-      "id": "claude_yantra_negócios_imobiliários_claude_md",
-      "label": "Yantra Negócios Imobiliários — CLAUDE.md",
-      "degree": 12
+      "id": "ref_react",
+      "label": "react",
+      "degree": 13
     },
     {
-      "id": "ref_next",
-      "label": "next",
+      "id": "types_imovel_imovel",
+      "label": "Imovel",
       "degree": 10
-    },
-    {
-      "id": "ref_lucide_react",
-      "label": "lucide-react",
-      "degree": 8
-    },
-    {
-      "id": "progress_concluído",
-      "label": "✅ Concluído",
-      "degree": 8
-    },
-    {
-      "id": "yantra_prompt_master_ordem_de_implementação",
-      "label": "ORDEM DE IMPLEMENTAÇÃO",
-      "degree": 8
     },
     {
       "id": "app_imoveis_slug_page_propertydetailpage",
       "label": "PropertyDetailPage()",
-      "degree": 7
+      "degree": 9
     },
     {
-      "id": "components_imoveis_propertycard_propertycard",
-      "label": "PropertyCard()",
-      "degree": 6
+      "id": "yantra_prompt_master_ordem_de_implementa\u00e7\u00e3o",
+      "label": "ORDEM DE IMPLEMENTA\u00c7\u00c3O",
+      "degree": 8
     },
     {
-      "id": "components_imoveis_propertygrid_propertygrid",
-      "label": "PropertyGrid()",
-      "degree": 6
+      "id": "progress_conclu\u00eddo",
+      "label": "\u2705 Conclu\u00eddo",
+      "degree": 8
     }
   ],
   "surprises": [
     {
-      "source": "AlugarPage()",
-      "target": "FilterPanel()",
+      "source": "Home()",
+      "target": "FeaturedProperties()",
       "source_files": [
-        "app/alugar/page.tsx",
-        "components/imoveis/FilterPanel.tsx"
+        "app/page.tsx",
+        "components/home/FeaturedProperties.tsx"
       ],
       "confidence": "EXTRACTED",
       "relation": "calls",
-      "why": "connects across different repos/directories"
+      "why": "connects across different repos/directories; bridges separate communities"
     },
     {
-      "source": "AlugarPage()",
-      "target": "PropertyGrid()",
+      "source": "PropertyDetailPage()",
+      "target": "CondominiumAmenities()",
       "source_files": [
-        "app/alugar/page.tsx",
-        "components/imoveis/PropertyGrid.tsx"
+        "app/imoveis/[slug]/page.tsx",
+        "components/imoveis/CondominiumAmenities.tsx"
       ],
       "confidence": "EXTRACTED",
       "relation": "calls",
-      "why": "connects across different repos/directories"
+      "why": "connects across different repos/directories; peripheral node `CondominiumAmenities()` unexpectedly reaches hub `PropertyDetailPage()`"
     },
     {
-      "source": "ComprarPage()",
-      "target": "FilterPanel()",
+      "source": "PropertyDetailPage()",
+      "target": "PropertyDescription()",
       "source_files": [
-        "app/comprar/page.tsx",
-        "components/imoveis/FilterPanel.tsx"
+        "app/imoveis/[slug]/page.tsx",
+        "components/imoveis/PropertyDescription.tsx"
       ],
       "confidence": "EXTRACTED",
       "relation": "calls",
-      "why": "connects across different repos/directories"
+      "why": "connects across different repos/directories; peripheral node `PropertyDescription()` unexpectedly reaches hub `PropertyDetailPage()`"
     },
     {
-      "source": "ComprarPage()",
-      "target": "PropertyGrid()",
+      "source": "PropertyDetailPage()",
+      "target": "PropertyGallery()",
       "source_files": [
-        "app/comprar/page.tsx",
-        "components/imoveis/PropertyGrid.tsx"
+        "app/imoveis/[slug]/page.tsx",
+        "components/imoveis/PropertyGallery.tsx"
       ],
       "confidence": "EXTRACTED",
       "relation": "calls",
-      "why": "connects across different repos/directories"
+      "why": "connects across different repos/directories; peripheral node `PropertyGallery()` unexpectedly reaches hub `PropertyDetailPage()`"
     },
     {
-      "source": "ContatoPage()",
-      "target": "ContactForm()",
+      "source": "PropertyDetailPage()",
+      "target": "PropertyMap()",
       "source_files": [
-        "app/contato/page.tsx",
-        "components/contato/ContactForm.tsx"
+        "app/imoveis/[slug]/page.tsx",
+        "components/imoveis/PropertyMap.tsx"
       ],
       "confidence": "EXTRACTED",
       "relation": "calls",
-      "why": "connects across different repos/directories"
+      "why": "connects across different repos/directories; peripheral node `PropertyMap()` unexpectedly reaches hub `PropertyDetailPage()`"
     }
   ],
-  "questions": [
-    {
-      "type": "bridge_node",
-      "question": "Why does `next` connect `Community 8` to `Community 0`, `Community 2`, `Community 5`?",
-      "why": "High betweenness centrality (0.085) - this node is a cross-community bridge."
-    },
-    {
-      "type": "low_cohesion",
-      "question": "Should `Community 0` be split into smaller, more focused modules?",
-      "why": "Cohesion score 0.07142857142857142 - nodes in this community are weakly interconnected."
-    },
-    {
-      "type": "bridge_node",
-      "question": "Why does `YANTRA NEGÓCIOS IMOBILIÁRIOS — Prompt Master para Claude Code` connect `Community 1` to `Community 3`?",
-      "why": "High betweenness centrality (0.041) - this node is a cross-community bridge."
-    },
-    {
-      "type": "low_cohesion",
-      "question": "Should `Community 1` be split into smaller, more focused modules?",
-      "why": "Cohesion score 0.05555555555555555 - nodes in this community are weakly interconnected."
-    },
-    {
-      "type": "bridge_node",
-      "question": "Why does `lucide-react` connect `Community 2` to `Community 0`, `Community 9`, `Community 5`?",
-      "why": "High betweenness centrality (0.037) - this node is a cross-community bridge."
-    },
-    {
-      "type": "low_cohesion",
-      "question": "Should `Community 2` be split into smaller, more focused modules?",
-      "why": "Cohesion score 0.14285714285714285 - nodes in this community are weakly interconnected."
-    },
-    {
-      "type": "low_cohesion",
-      "question": "Should `Community 3` be split into smaller, more focused modules?",
-      "why": "Cohesion score 0.07142857142857142 - nodes in this community are weakly interconnected."
-    }
-  ]
+  "tokens": {
+    "input": 0,
+    "output": 0
+  }
 }

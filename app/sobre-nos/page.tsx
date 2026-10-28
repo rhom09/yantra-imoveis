@@ -1,6 +1,12 @@
+import type { Metadata } from 'next';
 import CTABanner from '@/components/ui/CTABanner';
 import PillarCard from '@/components/sobre/PillarCard';
 import StatsBar from '@/components/sobre/StatsBar';
+
+export const metadata: Metadata = {
+  title: 'Sobre Nós',
+  description: 'Conheça a Yantra Negócios Imobiliários, nossa essência baseada em geometria sagrada e nosso compromisso com o alto padrão em Campinas.',
+};
 
 export default function SobreNosPage() {
   return (

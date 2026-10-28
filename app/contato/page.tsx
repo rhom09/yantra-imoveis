@@ -1,3 +1,4 @@
+import type { Metadata } from 'next';
 import Image from 'next/image';
 import ContactChannelCard from '@/components/contato/ContactChannelCard';
 import { NUMERO_WHATSAPP, EMAIL_CONTATO, gerarLinkWhatsApp } from '@/lib/whatsapp';
@@ -5,6 +6,11 @@ import { formatarTelefone } from '@/lib/formatters';
 import CTABanner from '@/components/ui/CTABanner';
 import { YantraPattern } from '@/components/ui/YantraPattern';
 import { MessageCircle, Mail, Phone } from 'lucide-react';
+
+export const metadata: Metadata = {
+  title: 'Contato',
+  description: 'Entre em contato com a Yantra Negócios Imobiliários. Atendimento exclusivo via WhatsApp, e-mail e em nossa sede no Cambuí, Campinas/SP.',
+};
 
 export default function ContatoPage() {
   const whatsappFormatado = formatarTelefone(NUMERO_WHATSAPP);
