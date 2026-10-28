@@ -60,9 +60,9 @@
     "semantic_hash": ""
   },
   "components/home/FeaturedProperties.tsx": {
-    "mtime": 1792874528.9521766,
-    "seen": 1792878001.3923056,
-    "ast_hash": "b3813b4583f2d2c7a18c2fb9b7914e8f",
+    "mtime": 1793139951.0259988,
+    "seen": 1793140128.5959866,
+    "ast_hash": "06f3be9892a9a17460891118c5791232",
     "semantic_hash": ""
   },
   "components/home/HeroSlider.tsx": {
@@ -72,9 +72,9 @@
     "semantic_hash": ""
   },
   "components/home/QuickCategories.tsx": {
-    "mtime": 1792882979.6749806,
-    "seen": 1793056548.9920526,
-    "ast_hash": "0965fa68ed7c329826e2bfc080f487ff",
+    "mtime": 1793139934.3481672,
+    "seen": 1793140128.595992,
+    "ast_hash": "38990064dc8c5ece2f685e7371c8b3cf",
     "semantic_hash": ""
   },
   "components/home/SearchBar.tsx": {
@@ -126,10 +126,10 @@
     "semantic_hash": "77c2cefc4bb07510a2529862e5b44077"
   },
   "components/imoveis/PropertySpecs.tsx": {
-    "mtime": 1792797205.2920892,
-    "seen": 1792807287.057593,
-    "ast_hash": "e41e92c255c4157888aa2ff119cf5fd0",
-    "semantic_hash": "e41e92c255c4157888aa2ff119cf5fd0"
+    "mtime": 1793138922.5563006,
+    "seen": 1793140128.59602,
+    "ast_hash": "5a0eeb29fcb9e046126e0fd9db68ec37",
+    "semantic_hash": ""
   },
   "components/layout/Footer.tsx": {
     "mtime": 1792797205.2920892,
@@ -252,9 +252,9 @@
     "semantic_hash": "0037418018d9230c0dbb97cd9282a6ad"
   },
   "CLAUDE.md": {
-    "mtime": 1792862828.3061512,
-    "seen": 1792863588.1775358,
-    "ast_hash": "04fea7d58ad5955e1beecefb73284435",
+    "mtime": 1793138937.0224025,
+    "seen": 1793140128.5961,
+    "ast_hash": "bda93349a17a0971a089b51b94ff90fd",
     "semantic_hash": ""
   },
   "PROGRESS.md": {
@@ -393,6 +393,18 @@
     "mtime": 1793137908.0594177,
     "seen": 1793138068.8904023,
     "ast_hash": "0c762b5cf72d684cb5a4c7a16d5d06a5",
+    "semantic_hash": ""
+  },
+  "components/home/ComerciaisMenu.tsx": {
+    "mtime": 1793139909.960413,
+    "seen": 1793140128.5959828,
+    "ast_hash": "31dd0ea4c5b6629e1e3013373cd0e6df",
+    "semantic_hash": ""
+  },
+  "lib/imoveis.ts": {
+    "mtime": 1793138818.5702586,
+    "seen": 1793140128.59605,
+    "ast_hash": "4f9d94765b7de6cb4639869043bcd965",
     "semantic_hash": ""
   }
 }

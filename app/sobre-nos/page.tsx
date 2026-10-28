@@ -1,14 +1,8 @@
 import CTABanner from '@/components/ui/CTABanner';
 import PillarCard from '@/components/sobre/PillarCard';
 import StatsBar from '@/components/sobre/StatsBar';
-import TeamCard from '@/components/sobre/TeamCard';
 
 export default function SobreNosPage() {
-  const equipe = [
-    { nome: "Ana Silva", cargo: "Corretora Sênior", fotoUrl: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400", linkedinUrl: "#" },
-    { nome: "Bruno Costa", cargo: "Consultor Imobiliário", fotoUrl: "https://images.unsplash.com/photo-1560250097-0b93528c31e6?w=400", linkedinUrl: "#" },
-  ];
-
   return (
     <main className="bg-off-white min-h-screen">
       {/* Hero */}
@@ -32,16 +26,6 @@ export default function SobreNosPage() {
       </section>
 
       <StatsBar />
-
-      {/* Equipe */}
-      <section className="py-20 container mx-auto px-6">
-        <h2 className="text-3xl lg:text-4xl font-serif text-verde-escuro text-center mb-16">Nossa Equipe</h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 max-w-4xl mx-auto">
-          {equipe.map((membro, index) => (
-            <TeamCard key={index} {...membro} />
-          ))}
-        </div>
-      </section>
 
       <CTABanner />
     </main>
