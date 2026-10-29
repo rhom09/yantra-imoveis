@@ -45,7 +45,7 @@ export default function ContatoPage() {
               />
             </div>
             <p className="relative z-10 mt-6 text-center font-serif text-xl text-verde-profundo italic tracking-wide">
-              "Conectando pessoas ao lugar onde a vida floresce."
+              &ldquo;Conectando pessoas ao lugar onde a vida floresce.&rdquo;
             </p>
           </div>
 
