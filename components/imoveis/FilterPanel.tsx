@@ -1,8 +1,10 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useMemo } from 'react';
 import { FilterState } from '@/hooks/useFilters';
 import { Search, RotateCcw, SlidersHorizontal, ChevronDown, ChevronUp } from 'lucide-react';
+import { Imovel } from '@/types/imovel';
+import { formatarMoeda } from '@/lib/formatters';
 
 interface FilterPanelProps {
   filters: FilterState;
@@ -10,6 +12,7 @@ interface FilterPanelProps {
   setMultipleFilters: (updates: Partial<FilterState>) => void;
   resetFilters: () => void;
   tipoNegocio?: 'venda' | 'locacao';
+  allProperties: Imovel[];
 }
 
 export default function FilterPanel({
@@ -18,10 +21,34 @@ export default function FilterPanel({
   setMultipleFilters,
   resetFilters,
   tipoNegocio,
+  allProperties,
 }: FilterPanelProps) {
   const [localCidade, setLocalCidade] = useState(filters.cidade);
   const [localBairro, setLocalBairro] = useState(filters.bairro);
   const [isMobileExpanded, setIsMobileExpanded] = useState(false);
+
+  // Calcula faixas de preço dinâmicas
+  const valorRanges = useMemo(() => {
+    const precos = allProperties
+      .filter((i) => i.tipoNegocio === tipoNegocio && i.status === 'ativo')
+      .map((i) => i.valor)
+      .sort((a, b) => a - b);
+
+    if (precos.length === 0) return [];
+
+    const min = precos[0];
+    const max = precos[precos.length - 1];
+
+    // Define faixas inteligentes baseadas nos extremos
+    const step = (max - min) / 3;
+    const ranges = [
+      { label: `Até ${formatarMoeda(min + step)}`, value: `max-${Math.round(min + step)}` },
+      { label: `${formatarMoeda(min + step)} a ${formatarMoeda(max - step)}`, value: `${Math.round(min + step)}-${Math.round(max - step)}` },
+      { label: `Acima de ${formatarMoeda(max - step)}`, value: `min-${Math.round(max - step)}` },
+    ];
+
+    return ranges;
+  }, [allProperties, tipoNegocio]);
 
   useEffect(() => {
     setLocalCidade(filters.cidade);
@@ -163,19 +190,11 @@ export default function FilterPanel({
               className="w-full px-3 py-3 border border-border-yantra rounded-lg text-sm font-sans focus:outline-none focus:ring-2 focus:ring-dourado bg-off-white/50 text-verde-profundo min-h-[44px]"
             >
               <option value="">Qualquer valor</option>
-              {isLocacao ? (
-                <>
-                  <option value="max-4000">Até R$ 4.000 / mês</option>
-                  <option value="4000-6000">R$ 4.000 a R$ 6.000 / mês</option>
-                  <option value="min-6000">Acima de R$ 6.000 / mês</option>
-                </>
-              ) : (
-                <>
-                  <option value="max-1000000">Até R$ 1.000.000</option>
-                  <option value="1000000-2000000">R$ 1.000.000 a R$ 2.000.000</option>
-                  <option value="min-2000000">Acima de R$ 2.000.000</option>
-                </>
-              )}
+              {valorRanges.map((range) => (
+                <option key={range.value} value={range.value}>
+                  {range.label}
+                </option>
+              ))}
             </select>
           </div>
         </div>

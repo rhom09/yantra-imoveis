@@ -7,8 +7,13 @@ import Pagination from '@/components/imoveis/Pagination';
 import CTABanner from '@/components/ui/CTABanner';
 import { useFilters } from '@/hooks/useFilters';
 import { ArrowUpDown } from 'lucide-react';
+import { Imovel } from '@/types/imovel';
 
-function ComprarContent() {
+interface ComprarPageContentProps {
+  allProperties: Imovel[];
+}
+
+function ComprarContent({ allProperties }: ComprarPageContentProps) {
   const {
     filters,
     setFilter,
@@ -30,6 +35,7 @@ function ComprarContent() {
           setMultipleFilters={setMultipleFilters}
           resetFilters={resetFilters}
           tipoNegocio="venda"
+          allProperties={allProperties}
         />
       </div>
 
@@ -76,7 +82,7 @@ function ComprarContent() {
   );
 }
 
-export default function ComprarPageContent() {
+export default function ComprarPageContent({ allProperties }: ComprarPageContentProps) {
   return (
     <main className="bg-off-white min-h-screen">
       {/* Hero Banner split/escuro */}
@@ -98,7 +104,7 @@ export default function ComprarPageContent() {
           </div>
         }
       >
-        <ComprarContent />
+        <ComprarContent allProperties={allProperties} />
       </Suspense>
 
       <CTABanner />

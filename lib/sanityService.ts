@@ -69,6 +69,20 @@ export async function fetchListings(params: ListingParams): Promise<Imovel[]> {
   }
 }
 
+export async function fetchAllProperties(): Promise<Imovel[]> {
+  if (!isSanityConfigured()) {
+    return MOCK_IMOVEIS.filter((i) => i.status === 'ativo');
+  }
+
+  try {
+    const data = await client.fetch<Imovel[]>(`*[_type == "imovel" && status == "ativo"]`);
+    return data && data.length > 0 ? data : MOCK_IMOVEIS.filter((i) => i.status === 'ativo');
+  } catch (error) {
+    console.error('Erro ao buscar todos os imóveis do Sanity:', error);
+    return MOCK_IMOVEIS.filter((i) => i.status === 'ativo');
+  }
+}
+
 export async function fetchPropertyBySlug(slug: string): Promise<Imovel | null> {
   if (!isSanityConfigured()) {
     return MOCK_IMOVEIS.find(i => i.slug.current === slug && i.status === 'ativo') || null;

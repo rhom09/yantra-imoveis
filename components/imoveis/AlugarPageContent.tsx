@@ -7,6 +7,7 @@ import Pagination from '@/components/imoveis/Pagination';
 import CTABanner from '@/components/ui/CTABanner';
 import { useFilters } from '@/hooks/useFilters';
 import { ArrowUpDown } from 'lucide-react';
+import { MOCK_IMOVEIS } from '@/lib/mockData';
 
 function AlugarContent() {
   const {
@@ -30,6 +31,7 @@ function AlugarContent() {
           setMultipleFilters={setMultipleFilters}
           resetFilters={resetFilters}
           tipoNegocio="locacao"
+          allProperties={MOCK_IMOVEIS}
         />
       </div>
 

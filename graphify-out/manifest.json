@@ -37,9 +37,9 @@
     "semantic_hash": "dc96bf0836608791ea040b73e4bc9d43"
   },
   "app/layout.tsx": {
-    "mtime": 1793279227.3063142,
-    "seen": 1793279399.7819695,
-    "ast_hash": "73e6b67928965f59c79366610bc4dba2",
+    "mtime": 1793280586.943265,
+    "seen": 1793280684.6387732,
+    "ast_hash": "006627c0117cee67bd9a8a75371f42b6",
     "semantic_hash": ""
   },
   "app/page.tsx": {
@@ -139,10 +139,10 @@
     "semantic_hash": "7f9ed4b5089b93c4fafd13ed3aa027d9"
   },
   "components/layout/Header.tsx": {
-    "mtime": 1793121561.8579702,
-    "seen": 1793197708.4996126,
-    "ast_hash": "3a8b07aa13c0ba84792d2e54067d6b69",
-    "semantic_hash": "3a8b07aa13c0ba84792d2e54067d6b69"
+    "mtime": 1793280489.187879,
+    "seen": 1793280684.6388462,
+    "ast_hash": "a2b38a1673cb4895f2f65ec0a37b4292",
+    "semantic_hash": ""
   },
   "components/sobre/PillarCard.tsx": {
     "mtime": 1792797205.292475,
@@ -491,6 +491,12 @@
     "mtime": 1793200778.1912568,
     "seen": 1793200976.6917686,
     "ast_hash": "d871fc92ae8b00f6920ce9d6db1827f7",
+    "semantic_hash": ""
+  },
+  "components/layout/BottomNav.tsx": {
+    "mtime": 1793280482.8466947,
+    "seen": 1793280684.6388404,
+    "ast_hash": "725bd3d80560f8eba843a1397b272145",
     "semantic_hash": ""
   }
 }
