@@ -1,17 +1,17 @@
 # Graph Report - yantra-imoveis  (2026-10-29)
 
 ## Corpus Check
-- 73 files · ~17,101 words
+- 73 files · ~17,310 words
 - Verdict: corpus is large enough that graph structure adds value.
 - Unclassified: 4 file(s) not represented in the graph (top: (none) 2, .css 1, .example 1)
 
 ## Summary
-- 369 nodes · 558 edges · 21 communities (18 shown, 3 thin omitted)
+- 371 nodes · 580 edges · 19 communities (16 shown, 3 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS · INFERRED: 1 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `78f90c66`
+- Built from commit: `843c1cc4`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -23,7 +23,6 @@
 - Yantra Negócios Imobiliários — CLAUDE.md
 - sobre-nos/page.tsx
 - compilerOptions
-- sobre-nos/page.tsx
 - compilerOptions
 - [slug]/page.tsx
 - nova-pagina.md
@@ -35,52 +34,51 @@
 - next.config.js
 - postcss.config.js
 - .eslintrc.json
-- app/page.tsx
 
 ## God Nodes (most connected - your core abstractions)
 1. `next` - 22 edges
 2. `lucide-react` - 18 edges
 3. `YANTRA NEGÓCIOS IMOBILIÁRIOS — Prompt Master para Claude Code` - 16 edges
 4. `compilerOptions` - 16 edges
-5. `Yantra Negócios Imobiliários — CLAUDE.md` - 13 edges
-6. `react` - 12 edges
-7. `Imovel` - 10 edges
+5. `Imovel` - 14 edges
+6. `Yantra Negócios Imobiliários — CLAUDE.md` - 13 edges
+7. `react` - 12 edges
 8. `PropertyDetailPage()` - 9 edges
 9. `gerarLinkWhatsApp()` - 8 edges
 10. `ORDEM DE IMPLEMENTAÇÃO` - 8 edges
 
 ## Surprising Connections (you probably didn't know these)
+- `ComprarPageContentProps` --references--> `Imovel`  [EXTRACTED]
+  components/imoveis/ComprarPageContent.tsx → types/imovel.ts
+- `generateMetadata()` --calls--> `fetchPropertyBySlug()`  [EXTRACTED]
+  app/imoveis/[slug]/page.tsx → lib/sanityService.ts
 - `PropertyCardProps` --references--> `Imovel`  [EXTRACTED]
   components/imoveis/PropertyCard.tsx → types/imovel.ts
 - `PropertyGridProps` --references--> `Imovel`  [EXTRACTED]
   components/imoveis/PropertyGrid.tsx → types/imovel.ts
-- `PropertyDetailPage()` --calls--> `WhatsAppButton()`  [EXTRACTED]
-  app/imoveis/[slug]/page.tsx → components/ui/WhatsAppButton.tsx
-- `WhatsAppButton()` --calls--> `gerarLinkWhatsApp()`  [EXTRACTED]
-  components/ui/WhatsAppButton.tsx → lib/whatsapp.ts
-- `generateMetadata()` --calls--> `fetchPropertyBySlug()`  [EXTRACTED]
-  app/imoveis/[slug]/page.tsx → lib/sanityService.ts
+- `ContatoPage()` --calls--> `ContactChannelCard()`  [EXTRACTED]
+  app/contato/page.tsx → components/contato/ContactChannelCard.tsx
 
 ## Import Cycles
 - None detected.
 
-## Communities (21 total, 3 thin omitted)
+## Communities (19 total, 3 thin omitted)
 
 ### Community 0 - "package.json"
 Cohesion: 0.06
-Nodes (40): dependencies, lucide-react@^0.379.0, next@14.2.4, @playwright/test@^1.64.1, react@^18.3.1, react-dom@^18.3.1, resend@^6.34.1, @sanity/image-url@^1.2.0 (+32 more)
+Nodes (38): dependencies, lucide-react@^0.379.0, next@14.2.4, @playwright/test@^1.64.1, react@^18.3.1, react-dom@^18.3.1, resend@^6.34.1, @sanity/vision@^3.99.0 (+30 more)
 
 ### Community 1 - "YANTRA NEGÓCIOS IMOBILIÁRIOS — Prompt Master para Claude Code"
 Cohesion: 0.06
 Nodes (35): ACESSIBILIDADE E SEO, BOTÃO WHATSAPP FLUTUANTE, COMPONENTES PRINCIPAIS, CONFIGURAÇÃO TAILWIND, CONTEXTO DO PROJETO, CTABanner.tsx, DADOS MOCK (para desenvolvimento inicial), DESIGN SYSTEM (+27 more)
 
 ### Community 2 - "QuickCategories.tsx"
-Cohesion: 0.09
-Nodes (20): ContatoPage(), metadata, metadata, RootLayout(), viewport, ContactChannelCard(), ContactChannelCardProps, ComerciaisMenu() (+12 more)
+Cohesion: 0.06
+Nodes (35): ContatoPage(), metadata, metadata, RootLayout(), viewport, Home(), metadata, SobreNosPage() (+27 more)
 
 ### Community 3 - "sanityService.ts"
 Cohesion: 0.12
-Nodes (17): PropertyCardProps, PropertyGridProps, iconMap, PropertySpecs(), getSpecs(), Spec, MOCK_IMOVEIS, CONFIG_QUERY (+9 more)
+Nodes (18): AlugarPage(), metadata, ComprarPage(), metadata, AlugarPageContent(), ComprarPageContent(), CONFIG_QUERY, DETAIL_QUERY (+10 more)
 
 ### Community 4 - "Yantra Negócios Imobiliários — CLAUDE.md"
 Cohesion: 0.07
@@ -91,20 +89,16 @@ Cohesion: 0.07
 Nodes (28): 1. HOME (app/page.tsx), 2. COMPRAR (app/comprar/page.tsx), 3. DETALHE DO IMÓVEL (app/imoveis/[slug]/page.tsx), 4. SOBRE NÓS (app/sobre-nos/page.tsx), 5. CONTATO (app/contato/page.tsx), Barra de Estatísticas, Breadcrumb, Conteúdo Principal (grid 2 colunas) (+20 more)
 
 ### Community 6 - "compilerOptions"
-Cohesion: 0.16
-Nodes (17): AlugarPage(), metadata, ComprarPage(), metadata, AlugarContent(), AlugarPageContent(), ComprarContent(), ComprarPageContent() (+9 more)
-
-### Community 7 - "sobre-nos/page.tsx"
-Cohesion: 0.24
-Nodes (7): metadata, SobreNosPage(), PillarCard(), PillarCardProps, StatItem, stats, StatsBar()
+Cohesion: 0.15
+Nodes (19): FeaturedProperties(), AlugarContent(), ComprarContent(), ComprarPageContentProps, FilterPanel(), FilterPanelProps, Pagination(), PaginationProps (+11 more)
 
 ### Community 8 - "compilerOptions"
 Cohesion: 0.11
 Nodes (18): compilerOptions, allowJs, baseUrl, esModuleInterop, incremental, isolatedModules, jsx, lib (+10 more)
 
 ### Community 9 - "[slug]/page.tsx"
-Cohesion: 0.16
-Nodes (11): generateMetadata(), PropertyDetailPage(), CondominiumAmenities(), CondominiumAmenitiesProps, PropertyDescription(), PropertyDescriptionProps, PropertyGallery(), PropertyMap() (+3 more)
+Cohesion: 0.14
+Nodes (14): generateMetadata(), PropertyDetailPage(), CondominiumAmenities(), CondominiumAmenitiesProps, PropertyDescription(), PropertyDescriptionProps, PropertyGallery(), PropertyMap() (+6 more)
 
 ### Community 10 - "nova-pagina.md"
 Cohesion: 0.14
@@ -134,10 +128,6 @@ Nodes (4): Design System a aplicar, Entrega, Estrutura obrigatória, Regras de c
 Cohesion: 0.50
 Nodes (3): 1. Leia os arquivos de contexto, 2. Faça um diagnóstico rápido, 3. Pergunte como prosseguir
 
-### Community 20 - "app/page.tsx"
-Cohesion: 0.24
-Nodes (10): Home(), FeaturedProperties(), HeroSlider(), slides, QuickCategories(), SearchBar(), PropertyCard(), WhatsAppButton() (+2 more)
-
 ## Knowledge Gaps
 - **1 isolated node(s):** `next/core-web-vitals`
   These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 179 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
@@ -146,17 +136,17 @@ Nodes (10): Home(), FeaturedProperties(), HeroSlider(), slides, QuickCategories(
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `next` connect `QuickCategories.tsx` to `package.json`, `sanityService.ts`, `compilerOptions`, `sobre-nos/page.tsx`, `[slug]/page.tsx`, `app/page.tsx`?**
-  _High betweenness centrality (0.119) - this node is a cross-community bridge._
+- **Why does `next` connect `QuickCategories.tsx` to `package.json`, `[slug]/page.tsx`, `sanityService.ts`, `compilerOptions`?**
+  _High betweenness centrality (0.113) - this node is a cross-community bridge._
 - **What connects `next/core-web-vitals` to the rest of the system?**
   _1 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `package.json` be split into smaller, more focused modules?**
-  _Cohesion score 0.05919661733615222 - nodes in this community are weakly interconnected._
-- **Why does `lucide-react` connect `compilerOptions` to `package.json`, `QuickCategories.tsx`, `sanityService.ts`, `[slug]/page.tsx`, `app/page.tsx`?**
-  _High betweenness centrality (0.062) - this node is a cross-community bridge._
+  _Cohesion score 0.06155632984901278 - nodes in this community are weakly interconnected._
+- **Why does `lucide-react` connect `QuickCategories.tsx` to `package.json`, `[slug]/page.tsx`, `compilerOptions`?**
+  _High betweenness centrality (0.060) - this node is a cross-community bridge._
 - **Should `YANTRA NEGÓCIOS IMOBILIÁRIOS — Prompt Master para Claude Code` be split into smaller, more focused modules?**
   _Cohesion score 0.05555555555555555 - nodes in this community are weakly interconnected._
 - **Why does `sanity` connect `sanity.config.ts` to `package.json`?**
   _High betweenness centrality (0.030) - this node is a cross-community bridge._
 - **Should `QuickCategories.tsx` be split into smaller, more focused modules?**
-  _Cohesion score 0.09309309309309309 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.06312098188194039 - nodes in this community are weakly interconnected._

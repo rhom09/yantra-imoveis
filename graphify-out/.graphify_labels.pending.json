@@ -6,7 +6,6 @@
   "4": "Yantra Negócios Imobiliários — CLAUDE.md",
   "5": "sobre-nos/page.tsx",
   "6": "compilerOptions",
-  "7": "sobre-nos/page.tsx",
   "8": "compilerOptions",
   "9": "[slug]/page.tsx",
   "10": "nova-pagina.md",
@@ -18,6 +17,5 @@
   "16": "next.config.js",
   "17": "postcss.config.js",
   "18": "sanityService.ts",
-  "19": ".eslintrc.json",
-  "20": "app/page.tsx"
+  "19": ".eslintrc.json"
 }

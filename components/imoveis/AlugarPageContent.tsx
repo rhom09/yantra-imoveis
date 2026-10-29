@@ -7,9 +7,13 @@ import Pagination from '@/components/imoveis/Pagination';
 import CTABanner from '@/components/ui/CTABanner';
 import { useFilters } from '@/hooks/useFilters';
 import { ArrowUpDown } from 'lucide-react';
-import { MOCK_IMOVEIS } from '@/lib/mockData';
+import { Imovel } from '@/types/imovel';
 
-function AlugarContent() {
+interface AlugarPageContentProps {
+  allProperties: Imovel[];
+}
+
+function AlugarContent({ allProperties }: AlugarPageContentProps) {
   const {
     filters,
     setFilter,
@@ -31,7 +35,7 @@ function AlugarContent() {
           setMultipleFilters={setMultipleFilters}
           resetFilters={resetFilters}
           tipoNegocio="locacao"
-          allProperties={MOCK_IMOVEIS}
+          allProperties={allProperties}
         />
       </div>
 
@@ -78,7 +82,7 @@ function AlugarContent() {
   );
 }
 
-export default function AlugarPageContent() {
+export default function AlugarPageContent({ allProperties }: AlugarPageContentProps) {
   return (
     <main className="bg-off-white min-h-screen">
       {/* Hero Banner split/escuro */}
@@ -100,7 +104,7 @@ export default function AlugarPageContent() {
           </div>
         }
       >
-        <AlugarContent />
+        <AlugarContent allProperties={allProperties} />
       </Suspense>
 
       <CTABanner />
