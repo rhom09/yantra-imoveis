@@ -1,7 +1,7 @@
-# Graph Report - yantra-imoveis  (2026-10-28)
+# Graph Report - yantra-imoveis  (2026-10-29)
 
 ## Corpus Check
-- 72 files · ~17,073 words
+- 72 files · ~17,078 words
 - Verdict: corpus is large enough that graph structure adds value.
 - Unclassified: 4 file(s) not represented in the graph (top: (none) 2, .css 1, .example 1)
 
@@ -11,7 +11,7 @@
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `96aa6137`
+- Built from commit: `b05ac1e4`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 

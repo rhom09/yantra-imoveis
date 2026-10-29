@@ -1,7 +1,10 @@
 import "./globals.css";
 import type { Metadata } from "next";
+import { Viewport } from "next";
 import Header from "../components/layout/Header";
 import Footer from "../components/layout/Footer";
+import BottomNav from "../components/layout/BottomNav"; // Importar BottomNav
+import { headers } from "next/headers"; // Importar headers para verificar a rota
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://yantra-imoveis.vercel.app'),
@@ -37,17 +40,29 @@ export const metadata: Metadata = {
   },
 };
 
+export const viewport: Viewport = {
+  themeColor: '#3F5B4B',
+  viewportFit: 'cover',
+};
+
 export default function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
+  const headersList = headers();
+  const pathname = headersList.get('x-invoke-path') || '';
+  const isStudioRoute = pathname.startsWith('/studio');
+
   return (
     <html lang="pt-BR">
       <body className="antialiased">
         <Header />
-        {children}
+        <main className={`flex-grow ${!isStudioRoute ? 'pb-[calc(5rem+env(safe-area-inset-bottom))] md:pb-0' : ''}`}>
+          {children}
+        </main>
         <Footer />
+        {!isStudioRoute && <BottomNav />}
       </body>
     </html>
   );
