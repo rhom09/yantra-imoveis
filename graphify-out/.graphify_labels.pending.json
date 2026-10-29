@@ -8,14 +8,15 @@
   "6": "compilerOptions",
   "7": "✅ Concluído",
   "8": "compilerOptions",
-  "9": "[slug]/page.tsx",
+  "9": "sanity.ts",
   "10": "nova-pagina.md",
   "11": "Checklist de Revisão",
   "12": "lucide-react",
-  "13": "checkpoint.md",
+  "13": "sanity.config.ts",
   "14": "novo-componente.md",
   "15": "retomar.md",
   "16": "next.config.js",
   "17": "postcss.config.js",
-  "18": "sanityService.ts"
+  "18": "sanityService.ts",
+  "19": ".eslintrc.json"
 }

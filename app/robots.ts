@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: ['/api/'],
     },
-    sitemap: 'https://yantraimoveis.com.br/sitemap.xml',
+    sitemap: 'https://yantra-imoveis.vercel.app/sitemap.xml',
   };
 }

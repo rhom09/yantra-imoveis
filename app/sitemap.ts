@@ -3,7 +3,7 @@ import { MOCK_IMOVEIS } from '@/lib/mockData';
 import { client } from '@/lib/sanity';
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const baseUrl = 'https://yantraimoveis.com.br';
+  const baseUrl = 'https://yantra-imoveis.vercel.app';
 
   const routes = ['', '/comprar', '/alugar', '/sobre-nos', '/contato'].map((route) => ({
     url: `${baseUrl}${route}`,
